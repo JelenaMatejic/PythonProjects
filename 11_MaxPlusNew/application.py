@@ -93,8 +93,9 @@ class Application:
                                 M_x_B = automaton2.transitions[i]
                                 
                                 U_1_fs_T = U_1_fs.transpose()
-                                left = utility.left_residual(M_x_A, utility.multiply(M_x_B, U_1_fs_T))
-                                local_min = utility.matrix_min(local_min, left)
+                                left = utility.left_residual(utility.multiply(M_x_B, U_1_fs_T), M_x_A)
+                                left_T = left.transpose()
+                                local_min = utility.matrix_min(local_min, left_T)
                             U_2_fs = utility.matrix_min(local_min, U_1_fs)
 
                             n+=1

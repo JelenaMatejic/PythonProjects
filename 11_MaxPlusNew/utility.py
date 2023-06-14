@@ -55,9 +55,9 @@ def left_residual(matrix_n, matrix_m):
     for i in range(matrix_n.rows):
             for j in range(matrix_m.rows):
                 for k in range(matrix_m.cols):
-                    a = matrix_n.value[i][k]
-                    b = matrix_m.value[j][k]
-                    result[i][j] = min(result[i][j], residual(a, b))
+                    m = matrix_m.value[j][k]
+                    n = matrix_n.value[i][k]
+                    result[i][j] = min(result[i][j], residual(m, n))
 
     return Matrix('Right Residual', result)
 
