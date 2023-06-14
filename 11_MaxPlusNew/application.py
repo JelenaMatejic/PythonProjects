@@ -103,6 +103,7 @@ class Application:
                             else:
                                 U_1_fs = U_2_fs
                                 U_1_fs.print_matrix()
+                                
 
                     if checkbox_text == "Backward Simulation":
                         # sigma_A \ sigma_B
