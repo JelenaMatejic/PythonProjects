@@ -1,0 +1,19 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - -
+TO DO
+- - - - - - - - - - - - - - - - - - - - - - - - -
+- Napraviti da se i na ciklusima prikazuju labele
+- Kada na grani postoji više labela, neka se prikazuju sve labele
+- Obeležiti inicijalna stanja automata
+- Obeležiti finalna stanja automata
+- - - - - - - - - - - - - - - - - - - - - - - - -
+DONE
+- - - - - - - - - - - - - - - - - - - - - - - - -
+- Organizovati kod po zasebnim funkcijama, fajlovima i klasama
+- Iskomentarisati kod
+- Napraviti output.txt file i tu čuvati izlazne matrice automata
+- Čvorove preoblikovati tako da budu veći i font u njima da bude manji
+- Implementirati crtanje determinističkog automata
+- Napraviti da se na stranici prikazuju oba automata paralelno i nedeterministički i deterministički
+- Napraviti GUI tako da je moguće odabrati file iz koga će se vršiti učitavanje matrica, pored dugmeta ispisati selektovani fajl
+- U GUI dodati dugme klikom na koje će se vršiti izračunavanje

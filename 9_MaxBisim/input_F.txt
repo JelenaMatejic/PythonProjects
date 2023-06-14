@@ -1,0 +1,14 @@
+states
+3
+start
+1,1,0
+end 
+1,0,0
+transition x
+0,0,0
+0,3/10,0
+1,0,1/10
+transition y
+0,0,1
+1,0,0
+0,0,0

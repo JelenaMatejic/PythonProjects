@@ -1,0 +1,5128 @@
+s_ = 9/10 0 0 0 
+d_x
+0 0 1/2 0 
+0 0 2/5 1 
+0 2/5 0 0 
+0 0 0 0 
+d_y
+0 7/10 0 0 
+0 0 0 0 
+0 0 0 1 
+0 0 0 0 
+t_ = 0 1 1 0 
+-------------------- 
+t_<->t_
+1 0 
+0 1 
+0 1 
+1 0 
+t_x<->t_x
+1 4/5 
+4/5 1 
+4/5 1 
+0 0 
+t_y<->t_y
+1 0 
+0 1 
+0 1 
+0 1 
+t_xx<->t_xx
+1 4/5 
+4/5 1 
+4/5 1 
+0 0 
+t_xy<->t_xy
+1 0 
+0 1 
+0 1 
+0 1 
+t_yx<->t_yx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yy<->t_yy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxx<->t_xxx
+1 4/5 
+4/5 1 
+4/5 1 
+0 0 
+t_xxy<->t_xxy
+1 0 
+0 1 
+0 1 
+0 1 
+t_xyx<->t_xyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyy<->t_xyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxx<->t_yxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxy<->t_yxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyx<->t_yyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyy<->t_yyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxx<->t_xxxx
+1 4/5 
+4/5 1 
+4/5 1 
+0 0 
+t_xxxy<->t_xxxy
+1 0 
+0 1 
+0 1 
+0 1 
+t_xxyx<->t_xxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyy<->t_xxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxx<->t_xyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxy<->t_xyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyx<->t_xyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyy<->t_xyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxx<->t_yxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxy<->t_yxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyx<->t_yxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyy<->t_yxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxx<->t_yyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxy<->t_yyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyx<->t_yyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyy<->t_yyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxx<->t_xxxxx
+1 4/5 
+4/5 1 
+4/5 1 
+0 0 
+t_xxxxy<->t_xxxxy
+1 0 
+0 1 
+0 1 
+0 1 
+t_xxxyx<->t_xxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyy<->t_xxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxx<->t_xxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxy<->t_xxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyx<->t_xxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyy<->t_xxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxx<->t_xyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxy<->t_xyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyx<->t_xyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyy<->t_xyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxx<->t_xyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxy<->t_xyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyx<->t_xyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyy<->t_xyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxx<->t_yxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxy<->t_yxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyx<->t_yxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyy<->t_yxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxx<->t_yxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxy<->t_yxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyx<->t_yxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyy<->t_yxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxx<->t_yyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxy<->t_yyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyx<->t_yyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyy<->t_yyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxx<->t_yyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxy<->t_yyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyx<->t_yyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyy<->t_yyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxx<->t_xxxxxx
+1 4/5 
+4/5 1 
+4/5 1 
+0 0 
+t_xxxxxy<->t_xxxxxy
+1 0 
+0 1 
+0 1 
+0 1 
+t_xxxxyx<->t_xxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyy<->t_xxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxx<->t_xxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxy<->t_xxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyx<->t_xxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyy<->t_xxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxx<->t_xxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxy<->t_xxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyx<->t_xxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyy<->t_xxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxx<->t_xxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxy<->t_xxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyx<->t_xxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyy<->t_xxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxx<->t_xyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxy<->t_xyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyx<->t_xyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyy<->t_xyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxx<->t_xyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxy<->t_xyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyx<->t_xyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyy<->t_xyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxx<->t_xyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxy<->t_xyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyx<->t_xyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyy<->t_xyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxx<->t_xyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxy<->t_xyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyx<->t_xyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyy<->t_xyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxx<->t_yxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxy<->t_yxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyx<->t_yxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyy<->t_yxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxx<->t_yxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxy<->t_yxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyx<->t_yxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyy<->t_yxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxx<->t_yxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxy<->t_yxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyx<->t_yxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyy<->t_yxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxx<->t_yxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxy<->t_yxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyx<->t_yxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyy<->t_yxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxx<->t_yyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxy<->t_yyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyx<->t_yyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyy<->t_yyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxx<->t_yyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxy<->t_yyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyx<->t_yyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyy<->t_yyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxx<->t_yyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxy<->t_yyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyx<->t_yyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyy<->t_yyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxx<->t_yyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxy<->t_yyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyx<->t_yyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyy<->t_yyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxx<->t_xxxxxxx
+1 4/5 
+4/5 1 
+4/5 1 
+0 0 
+t_xxxxxxy<->t_xxxxxxy
+1 0 
+0 1 
+0 1 
+0 1 
+t_xxxxxyx<->t_xxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyy<->t_xxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxx<->t_xxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxy<->t_xxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyx<->t_xxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyy<->t_xxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxx<->t_xxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxy<->t_xxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyx<->t_xxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyy<->t_xxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxx<->t_xxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxy<->t_xxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyx<->t_xxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyy<->t_xxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxx<->t_xxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxy<->t_xxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyx<->t_xxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyy<->t_xxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxx<->t_xxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxy<->t_xxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyx<->t_xxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyy<->t_xxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxx<->t_xxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxy<->t_xxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyx<->t_xxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyy<->t_xxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxx<->t_xxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxy<->t_xxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyx<->t_xxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyy<->t_xxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxx<->t_xyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxy<->t_xyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyx<->t_xyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyy<->t_xyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxx<->t_xyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxy<->t_xyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyx<->t_xyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyy<->t_xyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxx<->t_xyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxy<->t_xyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyx<->t_xyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyy<->t_xyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxx<->t_xyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxy<->t_xyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyx<->t_xyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyy<->t_xyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxx<->t_xyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxy<->t_xyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyx<->t_xyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyy<->t_xyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxx<->t_xyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxy<->t_xyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyx<->t_xyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyy<->t_xyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxx<->t_xyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxy<->t_xyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyx<->t_xyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyy<->t_xyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxx<->t_xyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxy<->t_xyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyx<->t_xyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyy<->t_xyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxx<->t_yxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxy<->t_yxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyx<->t_yxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyy<->t_yxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxx<->t_yxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxy<->t_yxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyx<->t_yxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyy<->t_yxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxx<->t_yxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxy<->t_yxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyx<->t_yxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyy<->t_yxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxx<->t_yxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxy<->t_yxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyx<->t_yxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyy<->t_yxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxx<->t_yxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxy<->t_yxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyx<->t_yxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyy<->t_yxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxx<->t_yxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxy<->t_yxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyx<->t_yxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyy<->t_yxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxx<->t_yxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxy<->t_yxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyx<->t_yxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyy<->t_yxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxx<->t_yxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxy<->t_yxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyx<->t_yxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyy<->t_yxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxx<->t_yyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxy<->t_yyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyx<->t_yyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyy<->t_yyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxx<->t_yyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxy<->t_yyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyx<->t_yyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyy<->t_yyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxx<->t_yyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxy<->t_yyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyx<->t_yyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyy<->t_yyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxx<->t_yyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxy<->t_yyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyx<->t_yyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyy<->t_yyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxx<->t_yyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxy<->t_yyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyx<->t_yyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyy<->t_yyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxx<->t_yyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxy<->t_yyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyx<->t_yyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyy<->t_yyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxx<->t_yyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxy<->t_yyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyx<->t_yyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyy<->t_yyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxx<->t_yyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxy<->t_yyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyx<->t_yyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyy<->t_yyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxxx<->t_xxxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxxy<->t_xxxxxxxy
+1 0 
+0 1 
+0 1 
+0 1 
+t_xxxxxxyx<->t_xxxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxyy<->t_xxxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyxx<->t_xxxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyxy<->t_xxxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyyx<->t_xxxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyyy<->t_xxxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxxx<->t_xxxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxxy<->t_xxxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxyx<->t_xxxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxyy<->t_xxxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyxx<->t_xxxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyxy<->t_xxxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyyx<->t_xxxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyyy<->t_xxxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxxx<->t_xxxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxxy<->t_xxxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxyx<->t_xxxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxyy<->t_xxxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyxx<->t_xxxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyxy<->t_xxxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyyx<->t_xxxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyyy<->t_xxxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxxx<->t_xxxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxxy<->t_xxxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxyx<->t_xxxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxyy<->t_xxxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyxx<->t_xxxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyxy<->t_xxxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyyx<->t_xxxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyyy<->t_xxxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxxx<->t_xxyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxxy<->t_xxyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxyx<->t_xxyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxyy<->t_xxyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyxx<->t_xxyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyxy<->t_xxyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyyx<->t_xxyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyyy<->t_xxyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxxx<->t_xxyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxxy<->t_xxyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxyx<->t_xxyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxyy<->t_xxyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyxx<->t_xxyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyxy<->t_xxyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyyx<->t_xxyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyyy<->t_xxyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxxx<->t_xxyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxxy<->t_xxyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxyx<->t_xxyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxyy<->t_xxyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyxx<->t_xxyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyxy<->t_xxyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyyx<->t_xxyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyyy<->t_xxyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxxx<->t_xxyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxxy<->t_xxyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxyx<->t_xxyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxyy<->t_xxyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyxx<->t_xxyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyxy<->t_xxyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyyx<->t_xxyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyyy<->t_xxyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxxx<->t_xyxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxxy<->t_xyxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxyx<->t_xyxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxyy<->t_xyxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyxx<->t_xyxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyxy<->t_xyxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyyx<->t_xyxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyyy<->t_xyxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxxx<->t_xyxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxxy<->t_xyxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxyx<->t_xyxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxyy<->t_xyxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyxx<->t_xyxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyxy<->t_xyxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyyx<->t_xyxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyyy<->t_xyxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxxx<->t_xyxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxxy<->t_xyxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxyx<->t_xyxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxyy<->t_xyxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyxx<->t_xyxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyxy<->t_xyxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyyx<->t_xyxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyyy<->t_xyxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxxx<->t_xyxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxxy<->t_xyxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxyx<->t_xyxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxyy<->t_xyxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyxx<->t_xyxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyxy<->t_xyxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyyx<->t_xyxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyyy<->t_xyxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxxx<->t_xyyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxxy<->t_xyyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxyx<->t_xyyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxyy<->t_xyyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyxx<->t_xyyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyxy<->t_xyyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyyx<->t_xyyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyyy<->t_xyyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxxx<->t_xyyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxxy<->t_xyyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxyx<->t_xyyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxyy<->t_xyyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyxx<->t_xyyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyxy<->t_xyyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyyx<->t_xyyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyyy<->t_xyyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxxx<->t_xyyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxxy<->t_xyyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxyx<->t_xyyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxyy<->t_xyyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyxx<->t_xyyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyxy<->t_xyyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyyx<->t_xyyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyyy<->t_xyyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxxx<->t_xyyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxxy<->t_xyyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxyx<->t_xyyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxyy<->t_xyyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyxx<->t_xyyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyxy<->t_xyyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyyx<->t_xyyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyyy<->t_xyyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxxx<->t_yxxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxxy<->t_yxxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxyx<->t_yxxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxyy<->t_yxxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyxx<->t_yxxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyxy<->t_yxxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyyx<->t_yxxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyyy<->t_yxxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxxx<->t_yxxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxxy<->t_yxxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxyx<->t_yxxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxyy<->t_yxxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyxx<->t_yxxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyxy<->t_yxxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyyx<->t_yxxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyyy<->t_yxxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxxx<->t_yxxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxxy<->t_yxxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxyx<->t_yxxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxyy<->t_yxxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyxx<->t_yxxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyxy<->t_yxxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyyx<->t_yxxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyyy<->t_yxxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxxx<->t_yxxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxxy<->t_yxxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxyx<->t_yxxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxyy<->t_yxxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyxx<->t_yxxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyxy<->t_yxxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyyx<->t_yxxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyyy<->t_yxxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxxx<->t_yxyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxxy<->t_yxyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxyx<->t_yxyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxyy<->t_yxyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyxx<->t_yxyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyxy<->t_yxyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyyx<->t_yxyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyyy<->t_yxyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxxx<->t_yxyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxxy<->t_yxyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxyx<->t_yxyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxyy<->t_yxyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyxx<->t_yxyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyxy<->t_yxyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyyx<->t_yxyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyyy<->t_yxyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxxx<->t_yxyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxxy<->t_yxyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxyx<->t_yxyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxyy<->t_yxyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyxx<->t_yxyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyxy<->t_yxyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyyx<->t_yxyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyyy<->t_yxyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxxx<->t_yxyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxxy<->t_yxyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxyx<->t_yxyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxyy<->t_yxyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyxx<->t_yxyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyxy<->t_yxyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyyx<->t_yxyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyyy<->t_yxyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxxx<->t_yyxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxxy<->t_yyxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxyx<->t_yyxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxyy<->t_yyxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyxx<->t_yyxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyxy<->t_yyxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyyx<->t_yyxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyyy<->t_yyxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxxx<->t_yyxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxxy<->t_yyxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxyx<->t_yyxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxyy<->t_yyxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyxx<->t_yyxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyxy<->t_yyxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyyx<->t_yyxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyyy<->t_yyxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxxx<->t_yyxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxxy<->t_yyxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxyx<->t_yyxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxyy<->t_yyxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyxx<->t_yyxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyxy<->t_yyxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyyx<->t_yyxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyyy<->t_yyxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxxx<->t_yyxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxxy<->t_yyxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxyx<->t_yyxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxyy<->t_yyxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyxx<->t_yyxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyxy<->t_yyxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyyx<->t_yyxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyyy<->t_yyxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxxx<->t_yyyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxxy<->t_yyyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxyx<->t_yyyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxyy<->t_yyyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyxx<->t_yyyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyxy<->t_yyyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyyx<->t_yyyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyyy<->t_yyyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxxx<->t_yyyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxxy<->t_yyyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxyx<->t_yyyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxyy<->t_yyyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyxx<->t_yyyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyxy<->t_yyyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyyx<->t_yyyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyyy<->t_yyyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxxx<->t_yyyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxxy<->t_yyyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxyx<->t_yyyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxyy<->t_yyyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyxx<->t_yyyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyxy<->t_yyyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyyx<->t_yyyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyyy<->t_yyyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxxx<->t_yyyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxxy<->t_yyyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxyx<->t_yyyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxyy<->t_yyyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyxx<->t_yyyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyxy<->t_yyyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyyx<->t_yyyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyyy<->t_yyyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxxxx<->t_xxxxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxxxy<->t_xxxxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxxyx<->t_xxxxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxxyy<->t_xxxxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxyxx<->t_xxxxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxyxy<->t_xxxxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxyyx<->t_xxxxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxxyyy<->t_xxxxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyxxx<->t_xxxxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyxxy<->t_xxxxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyxyx<->t_xxxxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyxyy<->t_xxxxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyyxx<->t_xxxxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyyxy<->t_xxxxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyyyx<->t_xxxxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxxyyyy<->t_xxxxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxxxx<->t_xxxxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxxxy<->t_xxxxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxxyx<->t_xxxxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxxyy<->t_xxxxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxyxx<->t_xxxxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxyxy<->t_xxxxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxyyx<->t_xxxxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyxyyy<->t_xxxxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyxxx<->t_xxxxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyxxy<->t_xxxxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyxyx<->t_xxxxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyxyy<->t_xxxxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyyxx<->t_xxxxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyyxy<->t_xxxxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyyyx<->t_xxxxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxxyyyyy<->t_xxxxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxxxx<->t_xxxyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxxxy<->t_xxxyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxxyx<->t_xxxyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxxyy<->t_xxxyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxyxx<->t_xxxyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxyxy<->t_xxxyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxyyx<->t_xxxyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxxyyy<->t_xxxyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyxxx<->t_xxxyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyxxy<->t_xxxyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyxyx<->t_xxxyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyxyy<->t_xxxyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyyxx<->t_xxxyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyyxy<->t_xxxyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyyyx<->t_xxxyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyxyyyy<->t_xxxyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxxxx<->t_xxxyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxxxy<->t_xxxyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxxyx<->t_xxxyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxxyy<->t_xxxyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxyxx<->t_xxxyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxyxy<->t_xxxyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxyyx<->t_xxxyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyxyyy<->t_xxxyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyxxx<->t_xxxyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyxxy<->t_xxxyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyxyx<->t_xxxyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyxyy<->t_xxxyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyyxx<->t_xxxyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyyxy<->t_xxxyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyyyx<->t_xxxyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxxyyyyyy<->t_xxxyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxxxx<->t_xxyxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxxxy<->t_xxyxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxxyx<->t_xxyxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxxyy<->t_xxyxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxyxx<->t_xxyxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxyxy<->t_xxyxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxyyx<->t_xxyxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxxyyy<->t_xxyxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyxxx<->t_xxyxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyxxy<->t_xxyxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyxyx<->t_xxyxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyxyy<->t_xxyxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyyxx<->t_xxyxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyyxy<->t_xxyxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyyyx<->t_xxyxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxxyyyy<->t_xxyxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxxxx<->t_xxyxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxxxy<->t_xxyxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxxyx<->t_xxyxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxxyy<->t_xxyxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxyxx<->t_xxyxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxyxy<->t_xxyxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxyyx<->t_xxyxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyxyyy<->t_xxyxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyxxx<->t_xxyxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyxxy<->t_xxyxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyxyx<->t_xxyxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyxyy<->t_xxyxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyyxx<->t_xxyxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyyxy<->t_xxyxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyyyx<->t_xxyxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyxyyyyy<->t_xxyxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxxxx<->t_xxyyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxxxy<->t_xxyyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxxyx<->t_xxyyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxxyy<->t_xxyyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxyxx<->t_xxyyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxyxy<->t_xxyyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxyyx<->t_xxyyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxxyyy<->t_xxyyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyxxx<->t_xxyyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyxxy<->t_xxyyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyxyx<->t_xxyyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyxyy<->t_xxyyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyyxx<->t_xxyyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyyxy<->t_xxyyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyyyx<->t_xxyyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyxyyyy<->t_xxyyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxxxx<->t_xxyyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxxxy<->t_xxyyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxxyx<->t_xxyyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxxyy<->t_xxyyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxyxx<->t_xxyyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxyxy<->t_xxyyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxyyx<->t_xxyyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyxyyy<->t_xxyyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyxxx<->t_xxyyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyxxy<->t_xxyyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyxyx<->t_xxyyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyxyy<->t_xxyyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyyxx<->t_xxyyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyyxy<->t_xxyyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyyyx<->t_xxyyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xxyyyyyyy<->t_xxyyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxxxx<->t_xyxxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxxxy<->t_xyxxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxxyx<->t_xyxxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxxyy<->t_xyxxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxyxx<->t_xyxxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxyxy<->t_xyxxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxyyx<->t_xyxxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxxyyy<->t_xyxxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyxxx<->t_xyxxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyxxy<->t_xyxxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyxyx<->t_xyxxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyxyy<->t_xyxxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyyxx<->t_xyxxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyyxy<->t_xyxxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyyyx<->t_xyxxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxxyyyy<->t_xyxxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxxxx<->t_xyxxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxxxy<->t_xyxxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxxyx<->t_xyxxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxxyy<->t_xyxxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxyxx<->t_xyxxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxyxy<->t_xyxxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxyyx<->t_xyxxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyxyyy<->t_xyxxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyxxx<->t_xyxxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyxxy<->t_xyxxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyxyx<->t_xyxxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyxyy<->t_xyxxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyyxx<->t_xyxxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyyxy<->t_xyxxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyyyx<->t_xyxxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxxyyyyy<->t_xyxxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxxxx<->t_xyxyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxxxy<->t_xyxyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxxyx<->t_xyxyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxxyy<->t_xyxyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxyxx<->t_xyxyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxyxy<->t_xyxyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxyyx<->t_xyxyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxxyyy<->t_xyxyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyxxx<->t_xyxyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyxxy<->t_xyxyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyxyx<->t_xyxyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyxyy<->t_xyxyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyyxx<->t_xyxyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyyxy<->t_xyxyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyyyx<->t_xyxyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyxyyyy<->t_xyxyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxxxx<->t_xyxyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxxxy<->t_xyxyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxxyx<->t_xyxyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxxyy<->t_xyxyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxyxx<->t_xyxyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxyxy<->t_xyxyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxyyx<->t_xyxyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyxyyy<->t_xyxyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyxxx<->t_xyxyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyxxy<->t_xyxyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyxyx<->t_xyxyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyxyy<->t_xyxyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyyxx<->t_xyxyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyyxy<->t_xyxyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyyyx<->t_xyxyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyxyyyyyy<->t_xyxyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxxxx<->t_xyyxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxxxy<->t_xyyxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxxyx<->t_xyyxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxxyy<->t_xyyxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxyxx<->t_xyyxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxyxy<->t_xyyxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxyyx<->t_xyyxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxxyyy<->t_xyyxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyxxx<->t_xyyxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyxxy<->t_xyyxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyxyx<->t_xyyxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyxyy<->t_xyyxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyyxx<->t_xyyxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyyxy<->t_xyyxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyyyx<->t_xyyxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxxyyyy<->t_xyyxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxxxx<->t_xyyxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxxxy<->t_xyyxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxxyx<->t_xyyxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxxyy<->t_xyyxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxyxx<->t_xyyxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxyxy<->t_xyyxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxyyx<->t_xyyxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyxyyy<->t_xyyxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyxxx<->t_xyyxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyxxy<->t_xyyxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyxyx<->t_xyyxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyxyy<->t_xyyxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyyxx<->t_xyyxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyyxy<->t_xyyxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyyyx<->t_xyyxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyxyyyyy<->t_xyyxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxxxx<->t_xyyyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxxxy<->t_xyyyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxxyx<->t_xyyyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxxyy<->t_xyyyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxyxx<->t_xyyyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxyxy<->t_xyyyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxyyx<->t_xyyyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxxyyy<->t_xyyyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyxxx<->t_xyyyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyxxy<->t_xyyyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyxyx<->t_xyyyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyxyy<->t_xyyyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyyxx<->t_xyyyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyyxy<->t_xyyyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyyyx<->t_xyyyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyxyyyy<->t_xyyyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxxxx<->t_xyyyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxxxy<->t_xyyyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxxyx<->t_xyyyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxxyy<->t_xyyyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxyxx<->t_xyyyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxyxy<->t_xyyyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxyyx<->t_xyyyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyxyyy<->t_xyyyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyxxx<->t_xyyyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyxxy<->t_xyyyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyxyx<->t_xyyyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyxyy<->t_xyyyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyyxx<->t_xyyyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyyxy<->t_xyyyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyyyx<->t_xyyyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_xyyyyyyyy<->t_xyyyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxxxx<->t_yxxxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxxxy<->t_yxxxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxxyx<->t_yxxxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxxyy<->t_yxxxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxyxx<->t_yxxxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxyxy<->t_yxxxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxyyx<->t_yxxxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxxyyy<->t_yxxxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyxxx<->t_yxxxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyxxy<->t_yxxxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyxyx<->t_yxxxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyxyy<->t_yxxxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyyxx<->t_yxxxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyyxy<->t_yxxxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyyyx<->t_yxxxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxxyyyy<->t_yxxxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxxxx<->t_yxxxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxxxy<->t_yxxxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxxyx<->t_yxxxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxxyy<->t_yxxxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxyxx<->t_yxxxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxyxy<->t_yxxxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxyyx<->t_yxxxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyxyyy<->t_yxxxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyxxx<->t_yxxxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyxxy<->t_yxxxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyxyx<->t_yxxxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyxyy<->t_yxxxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyyxx<->t_yxxxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyyxy<->t_yxxxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyyyx<->t_yxxxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxxyyyyy<->t_yxxxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxxxx<->t_yxxyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxxxy<->t_yxxyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxxyx<->t_yxxyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxxyy<->t_yxxyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxyxx<->t_yxxyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxyxy<->t_yxxyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxyyx<->t_yxxyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxxyyy<->t_yxxyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyxxx<->t_yxxyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyxxy<->t_yxxyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyxyx<->t_yxxyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyxyy<->t_yxxyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyyxx<->t_yxxyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyyxy<->t_yxxyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyyyx<->t_yxxyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyxyyyy<->t_yxxyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxxxx<->t_yxxyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxxxy<->t_yxxyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxxyx<->t_yxxyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxxyy<->t_yxxyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxyxx<->t_yxxyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxyxy<->t_yxxyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxyyx<->t_yxxyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyxyyy<->t_yxxyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyxxx<->t_yxxyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyxxy<->t_yxxyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyxyx<->t_yxxyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyxyy<->t_yxxyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyyxx<->t_yxxyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyyxy<->t_yxxyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyyyx<->t_yxxyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxxyyyyyy<->t_yxxyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxxxx<->t_yxyxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxxxy<->t_yxyxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxxyx<->t_yxyxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxxyy<->t_yxyxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxyxx<->t_yxyxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxyxy<->t_yxyxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxyyx<->t_yxyxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxxyyy<->t_yxyxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyxxx<->t_yxyxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyxxy<->t_yxyxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyxyx<->t_yxyxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyxyy<->t_yxyxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyyxx<->t_yxyxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyyxy<->t_yxyxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyyyx<->t_yxyxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxxyyyy<->t_yxyxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxxxx<->t_yxyxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxxxy<->t_yxyxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxxyx<->t_yxyxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxxyy<->t_yxyxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxyxx<->t_yxyxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxyxy<->t_yxyxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxyyx<->t_yxyxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyxyyy<->t_yxyxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyxxx<->t_yxyxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyxxy<->t_yxyxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyxyx<->t_yxyxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyxyy<->t_yxyxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyyxx<->t_yxyxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyyxy<->t_yxyxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyyyx<->t_yxyxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyxyyyyy<->t_yxyxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxxxx<->t_yxyyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxxxy<->t_yxyyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxxyx<->t_yxyyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxxyy<->t_yxyyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxyxx<->t_yxyyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxyxy<->t_yxyyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxyyx<->t_yxyyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxxyyy<->t_yxyyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyxxx<->t_yxyyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyxxy<->t_yxyyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyxyx<->t_yxyyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyxyy<->t_yxyyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyyxx<->t_yxyyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyyxy<->t_yxyyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyyyx<->t_yxyyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyxyyyy<->t_yxyyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxxxx<->t_yxyyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxxxy<->t_yxyyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxxyx<->t_yxyyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxxyy<->t_yxyyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxyxx<->t_yxyyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxyxy<->t_yxyyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxyyx<->t_yxyyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyxyyy<->t_yxyyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyxxx<->t_yxyyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyxxy<->t_yxyyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyxyx<->t_yxyyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyxyy<->t_yxyyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyyxx<->t_yxyyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyyxy<->t_yxyyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyyyx<->t_yxyyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yxyyyyyyy<->t_yxyyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxxxx<->t_yyxxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxxxy<->t_yyxxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxxyx<->t_yyxxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxxyy<->t_yyxxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxyxx<->t_yyxxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxyxy<->t_yyxxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxyyx<->t_yyxxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxxyyy<->t_yyxxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyxxx<->t_yyxxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyxxy<->t_yyxxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyxyx<->t_yyxxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyxyy<->t_yyxxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyyxx<->t_yyxxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyyxy<->t_yyxxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyyyx<->t_yyxxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxxyyyy<->t_yyxxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxxxx<->t_yyxxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxxxy<->t_yyxxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxxyx<->t_yyxxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxxyy<->t_yyxxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxyxx<->t_yyxxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxyxy<->t_yyxxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxyyx<->t_yyxxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyxyyy<->t_yyxxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyxxx<->t_yyxxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyxxy<->t_yyxxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyxyx<->t_yyxxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyxyy<->t_yyxxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyyxx<->t_yyxxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyyxy<->t_yyxxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyyyx<->t_yyxxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxxyyyyy<->t_yyxxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxxxx<->t_yyxyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxxxy<->t_yyxyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxxyx<->t_yyxyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxxyy<->t_yyxyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxyxx<->t_yyxyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxyxy<->t_yyxyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxyyx<->t_yyxyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxxyyy<->t_yyxyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyxxx<->t_yyxyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyxxy<->t_yyxyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyxyx<->t_yyxyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyxyy<->t_yyxyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyyxx<->t_yyxyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyyxy<->t_yyxyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyyyx<->t_yyxyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyxyyyy<->t_yyxyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxxxx<->t_yyxyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxxxy<->t_yyxyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxxyx<->t_yyxyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxxyy<->t_yyxyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxyxx<->t_yyxyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxyxy<->t_yyxyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxyyx<->t_yyxyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyxyyy<->t_yyxyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyxxx<->t_yyxyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyxxy<->t_yyxyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyxyx<->t_yyxyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyxyy<->t_yyxyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyyxx<->t_yyxyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyyxy<->t_yyxyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyyyx<->t_yyxyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyxyyyyyy<->t_yyxyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxxxx<->t_yyyxxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxxxy<->t_yyyxxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxxyx<->t_yyyxxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxxyy<->t_yyyxxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxyxx<->t_yyyxxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxyxy<->t_yyyxxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxyyx<->t_yyyxxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxxyyy<->t_yyyxxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyxxx<->t_yyyxxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyxxy<->t_yyyxxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyxyx<->t_yyyxxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyxyy<->t_yyyxxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyyxx<->t_yyyxxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyyxy<->t_yyyxxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyyyx<->t_yyyxxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxxyyyy<->t_yyyxxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxxxx<->t_yyyxyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxxxy<->t_yyyxyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxxyx<->t_yyyxyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxxyy<->t_yyyxyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxyxx<->t_yyyxyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxyxy<->t_yyyxyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxyyx<->t_yyyxyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyxyyy<->t_yyyxyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyxxx<->t_yyyxyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyxxy<->t_yyyxyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyxyx<->t_yyyxyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyxyy<->t_yyyxyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyyxx<->t_yyyxyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyyxy<->t_yyyxyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyyyx<->t_yyyxyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyxyyyyy<->t_yyyxyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxxxx<->t_yyyyxxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxxxy<->t_yyyyxxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxxyx<->t_yyyyxxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxxyy<->t_yyyyxxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxyxx<->t_yyyyxxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxyxy<->t_yyyyxxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxyyx<->t_yyyyxxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxxyyy<->t_yyyyxxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyxxx<->t_yyyyxyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyxxy<->t_yyyyxyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyxyx<->t_yyyyxyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyxyy<->t_yyyyxyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyyxx<->t_yyyyxyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyyxy<->t_yyyyxyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyyyx<->t_yyyyxyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyxyyyy<->t_yyyyxyyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxxxx<->t_yyyyyxxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxxxy<->t_yyyyyxxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxxyx<->t_yyyyyxxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxxyy<->t_yyyyyxxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxyxx<->t_yyyyyxyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxyxy<->t_yyyyyxyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxyyx<->t_yyyyyxyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyxyyy<->t_yyyyyxyyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyxxx<->t_yyyyyyxxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyxxy<->t_yyyyyyxxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyxyx<->t_yyyyyyxyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyxyy<->t_yyyyyyxyy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyyxx<->t_yyyyyyyxx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyyxy<->t_yyyyyyyxy
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyyyx<->t_yyyyyyyyx
+1 1 
+1 1 
+1 1 
+1 1 
+t_yyyyyyyyy<->t_yyyyyyyyy
+1 1 
+1 1 
+1 1 
+1 1 
