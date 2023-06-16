@@ -12,6 +12,7 @@ class Matrix:
         return Matrix(self.name + "^T", value_tmp)
 
     def print_matrix(self):
+        print(self.name)
         for row in self.value:
             print(','.join(str(element) for element in row))
         print("---------------")
