@@ -1,4 +1,6 @@
 from cmath import inf
+import re
+import numpy as np
 
 class Matrix:
     def __init__(self, name, value):
@@ -16,6 +18,17 @@ class Matrix:
         for row in self.value:
             print(','.join(str(element) for element in row))
         print("---------------")
+        
+    @staticmethod
+    def convert_inf_to_str(data):
+        if isinstance(data, list):
+            return [Matrix.convert_inf_to_str(item) for item in data]
+        return str(data) if data == -float('inf') or data == float('inf') else data 
+
+    def get_matrix(self):
+        my_dict =  self.__dict__.copy()
+        my_dict['value'] = Matrix.convert_inf_to_str(my_dict['value'])
+        return my_dict
 
     def print_matrix_in_file(self, filepath):
         with open(filepath, 'a') as file:

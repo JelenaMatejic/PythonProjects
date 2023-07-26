@@ -1,5128 +1,2386 @@
-s_ = 9/10 0 0 0 
-d_x
-0 0 1/2 0 
-0 0 2/5 1 
-0 2/5 0 0 
-0 0 0 0 
-d_y
-0 7/10 0 0 
-0 0 0 0 
-0 0 0 1 
-0 0 0 0 
-t_ = 0 1 1 0 
--------------------- 
-t_<->t_
-1 0 
-0 1 
-0 1 
-1 0 
-t_x<->t_x
-1 4/5 
-4/5 1 
-4/5 1 
-0 0 
-t_y<->t_y
-1 0 
-0 1 
-0 1 
-0 1 
-t_xx<->t_xx
-1 4/5 
-4/5 1 
-4/5 1 
-0 0 
-t_xy<->t_xy
-1 0 
-0 1 
-0 1 
-0 1 
-t_yx<->t_yx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yy<->t_yy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxx<->t_xxx
-1 4/5 
-4/5 1 
-4/5 1 
-0 0 
-t_xxy<->t_xxy
-1 0 
-0 1 
-0 1 
-0 1 
-t_xyx<->t_xyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyy<->t_xyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxx<->t_yxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxy<->t_yxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyx<->t_yyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyy<->t_yyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxx<->t_xxxx
-1 4/5 
-4/5 1 
-4/5 1 
-0 0 
-t_xxxy<->t_xxxy
-1 0 
-0 1 
-0 1 
-0 1 
-t_xxyx<->t_xxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyy<->t_xxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxx<->t_xyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxy<->t_xyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyx<->t_xyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyy<->t_xyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxx<->t_yxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxy<->t_yxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyx<->t_yxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyy<->t_yxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxx<->t_yyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxy<->t_yyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyx<->t_yyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyy<->t_yyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxx<->t_xxxxx
-1 4/5 
-4/5 1 
-4/5 1 
-0 0 
-t_xxxxy<->t_xxxxy
-1 0 
-0 1 
-0 1 
-0 1 
-t_xxxyx<->t_xxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyy<->t_xxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxx<->t_xxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxy<->t_xxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyx<->t_xxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyy<->t_xxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxx<->t_xyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxy<->t_xyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyx<->t_xyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyy<->t_xyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxx<->t_xyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxy<->t_xyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyx<->t_xyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyy<->t_xyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxx<->t_yxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxy<->t_yxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyx<->t_yxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyy<->t_yxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxx<->t_yxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxy<->t_yxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyx<->t_yxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyy<->t_yxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxx<->t_yyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxy<->t_yyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyx<->t_yyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyy<->t_yyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxx<->t_yyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxy<->t_yyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyx<->t_yyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyy<->t_yyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxx<->t_xxxxxx
-1 4/5 
-4/5 1 
-4/5 1 
-0 0 
-t_xxxxxy<->t_xxxxxy
-1 0 
-0 1 
-0 1 
-0 1 
-t_xxxxyx<->t_xxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyy<->t_xxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxx<->t_xxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxy<->t_xxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyx<->t_xxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyy<->t_xxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxx<->t_xxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxy<->t_xxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyx<->t_xxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyy<->t_xxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxx<->t_xxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxy<->t_xxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyx<->t_xxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyy<->t_xxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxx<->t_xyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxy<->t_xyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyx<->t_xyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyy<->t_xyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxx<->t_xyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxy<->t_xyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyx<->t_xyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyy<->t_xyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxx<->t_xyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxy<->t_xyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyx<->t_xyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyy<->t_xyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxx<->t_xyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxy<->t_xyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyx<->t_xyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyy<->t_xyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxx<->t_yxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxy<->t_yxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyx<->t_yxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyy<->t_yxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxx<->t_yxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxy<->t_yxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyx<->t_yxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyy<->t_yxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxx<->t_yxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxy<->t_yxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyx<->t_yxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyy<->t_yxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxx<->t_yxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxy<->t_yxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyx<->t_yxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyy<->t_yxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxx<->t_yyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxy<->t_yyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyx<->t_yyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyy<->t_yyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxx<->t_yyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxy<->t_yyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyx<->t_yyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyy<->t_yyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxx<->t_yyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxy<->t_yyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyx<->t_yyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyy<->t_yyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxx<->t_yyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxy<->t_yyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyx<->t_yyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyy<->t_yyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxx<->t_xxxxxxx
-1 4/5 
-4/5 1 
-4/5 1 
-0 0 
-t_xxxxxxy<->t_xxxxxxy
-1 0 
-0 1 
-0 1 
-0 1 
-t_xxxxxyx<->t_xxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyy<->t_xxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxx<->t_xxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxy<->t_xxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyx<->t_xxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyy<->t_xxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxx<->t_xxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxy<->t_xxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyx<->t_xxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyy<->t_xxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxx<->t_xxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxy<->t_xxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyx<->t_xxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyy<->t_xxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxx<->t_xxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxy<->t_xxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyx<->t_xxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyy<->t_xxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxx<->t_xxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxy<->t_xxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyx<->t_xxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyy<->t_xxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxx<->t_xxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxy<->t_xxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyx<->t_xxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyy<->t_xxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxx<->t_xxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxy<->t_xxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyx<->t_xxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyy<->t_xxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxx<->t_xyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxy<->t_xyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyx<->t_xyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyy<->t_xyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxx<->t_xyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxy<->t_xyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyx<->t_xyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyy<->t_xyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxx<->t_xyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxy<->t_xyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyx<->t_xyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyy<->t_xyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxx<->t_xyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxy<->t_xyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyx<->t_xyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyy<->t_xyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxx<->t_xyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxy<->t_xyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyx<->t_xyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyy<->t_xyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxx<->t_xyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxy<->t_xyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyx<->t_xyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyy<->t_xyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxx<->t_xyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxy<->t_xyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyx<->t_xyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyy<->t_xyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxx<->t_xyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxy<->t_xyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyx<->t_xyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyy<->t_xyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxx<->t_yxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxy<->t_yxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyx<->t_yxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyy<->t_yxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxx<->t_yxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxy<->t_yxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyx<->t_yxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyy<->t_yxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxx<->t_yxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxy<->t_yxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyx<->t_yxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyy<->t_yxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxx<->t_yxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxy<->t_yxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyx<->t_yxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyy<->t_yxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxx<->t_yxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxy<->t_yxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyx<->t_yxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyy<->t_yxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxx<->t_yxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxy<->t_yxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyx<->t_yxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyy<->t_yxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxx<->t_yxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxy<->t_yxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyx<->t_yxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyy<->t_yxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxx<->t_yxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxy<->t_yxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyx<->t_yxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyy<->t_yxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxx<->t_yyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxy<->t_yyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyx<->t_yyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyy<->t_yyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxx<->t_yyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxy<->t_yyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyx<->t_yyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyy<->t_yyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxx<->t_yyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxy<->t_yyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyx<->t_yyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyy<->t_yyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxx<->t_yyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxy<->t_yyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyx<->t_yyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyy<->t_yyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxx<->t_yyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxy<->t_yyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyx<->t_yyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyy<->t_yyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxx<->t_yyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxy<->t_yyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyx<->t_yyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyy<->t_yyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxx<->t_yyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxy<->t_yyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyx<->t_yyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyy<->t_yyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxx<->t_yyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxy<->t_yyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyx<->t_yyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyy<->t_yyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxxx<->t_xxxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxxy<->t_xxxxxxxy
-1 0 
-0 1 
-0 1 
-0 1 
-t_xxxxxxyx<->t_xxxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxyy<->t_xxxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyxx<->t_xxxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyxy<->t_xxxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyyx<->t_xxxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyyy<->t_xxxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxxx<->t_xxxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxxy<->t_xxxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxyx<->t_xxxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxyy<->t_xxxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyxx<->t_xxxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyxy<->t_xxxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyyx<->t_xxxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyyy<->t_xxxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxxx<->t_xxxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxxy<->t_xxxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxyx<->t_xxxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxyy<->t_xxxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyxx<->t_xxxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyxy<->t_xxxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyyx<->t_xxxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyyy<->t_xxxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxxx<->t_xxxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxxy<->t_xxxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxyx<->t_xxxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxyy<->t_xxxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyxx<->t_xxxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyxy<->t_xxxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyyx<->t_xxxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyyy<->t_xxxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxxx<->t_xxyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxxy<->t_xxyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxyx<->t_xxyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxyy<->t_xxyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyxx<->t_xxyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyxy<->t_xxyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyyx<->t_xxyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyyy<->t_xxyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxxx<->t_xxyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxxy<->t_xxyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxyx<->t_xxyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxyy<->t_xxyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyxx<->t_xxyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyxy<->t_xxyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyyx<->t_xxyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyyy<->t_xxyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxxx<->t_xxyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxxy<->t_xxyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxyx<->t_xxyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxyy<->t_xxyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyxx<->t_xxyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyxy<->t_xxyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyyx<->t_xxyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyyy<->t_xxyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxxx<->t_xxyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxxy<->t_xxyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxyx<->t_xxyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxyy<->t_xxyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyxx<->t_xxyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyxy<->t_xxyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyyx<->t_xxyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyyy<->t_xxyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxxx<->t_xyxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxxy<->t_xyxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxyx<->t_xyxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxyy<->t_xyxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyxx<->t_xyxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyxy<->t_xyxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyyx<->t_xyxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyyy<->t_xyxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxxx<->t_xyxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxxy<->t_xyxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxyx<->t_xyxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxyy<->t_xyxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyxx<->t_xyxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyxy<->t_xyxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyyx<->t_xyxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyyy<->t_xyxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxxx<->t_xyxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxxy<->t_xyxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxyx<->t_xyxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxyy<->t_xyxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyxx<->t_xyxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyxy<->t_xyxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyyx<->t_xyxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyyy<->t_xyxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxxx<->t_xyxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxxy<->t_xyxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxyx<->t_xyxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxyy<->t_xyxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyxx<->t_xyxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyxy<->t_xyxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyyx<->t_xyxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyyy<->t_xyxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxxx<->t_xyyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxxy<->t_xyyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxyx<->t_xyyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxyy<->t_xyyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyxx<->t_xyyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyxy<->t_xyyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyyx<->t_xyyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyyy<->t_xyyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxxx<->t_xyyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxxy<->t_xyyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxyx<->t_xyyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxyy<->t_xyyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyxx<->t_xyyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyxy<->t_xyyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyyx<->t_xyyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyyy<->t_xyyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxxx<->t_xyyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxxy<->t_xyyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxyx<->t_xyyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxyy<->t_xyyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyxx<->t_xyyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyxy<->t_xyyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyyx<->t_xyyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyyy<->t_xyyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxxx<->t_xyyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxxy<->t_xyyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxyx<->t_xyyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxyy<->t_xyyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyxx<->t_xyyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyxy<->t_xyyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyyx<->t_xyyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyyy<->t_xyyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxxx<->t_yxxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxxy<->t_yxxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxyx<->t_yxxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxyy<->t_yxxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyxx<->t_yxxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyxy<->t_yxxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyyx<->t_yxxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyyy<->t_yxxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxxx<->t_yxxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxxy<->t_yxxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxyx<->t_yxxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxyy<->t_yxxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyxx<->t_yxxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyxy<->t_yxxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyyx<->t_yxxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyyy<->t_yxxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxxx<->t_yxxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxxy<->t_yxxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxyx<->t_yxxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxyy<->t_yxxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyxx<->t_yxxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyxy<->t_yxxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyyx<->t_yxxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyyy<->t_yxxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxxx<->t_yxxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxxy<->t_yxxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxyx<->t_yxxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxyy<->t_yxxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyxx<->t_yxxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyxy<->t_yxxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyyx<->t_yxxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyyy<->t_yxxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxxx<->t_yxyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxxy<->t_yxyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxyx<->t_yxyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxyy<->t_yxyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyxx<->t_yxyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyxy<->t_yxyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyyx<->t_yxyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyyy<->t_yxyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxxx<->t_yxyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxxy<->t_yxyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxyx<->t_yxyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxyy<->t_yxyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyxx<->t_yxyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyxy<->t_yxyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyyx<->t_yxyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyyy<->t_yxyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxxx<->t_yxyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxxy<->t_yxyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxyx<->t_yxyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxyy<->t_yxyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyxx<->t_yxyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyxy<->t_yxyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyyx<->t_yxyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyyy<->t_yxyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxxx<->t_yxyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxxy<->t_yxyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxyx<->t_yxyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxyy<->t_yxyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyxx<->t_yxyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyxy<->t_yxyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyyx<->t_yxyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyyy<->t_yxyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxxx<->t_yyxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxxy<->t_yyxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxyx<->t_yyxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxyy<->t_yyxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyxx<->t_yyxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyxy<->t_yyxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyyx<->t_yyxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyyy<->t_yyxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxxx<->t_yyxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxxy<->t_yyxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxyx<->t_yyxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxyy<->t_yyxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyxx<->t_yyxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyxy<->t_yyxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyyx<->t_yyxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyyy<->t_yyxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxxx<->t_yyxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxxy<->t_yyxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxyx<->t_yyxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxyy<->t_yyxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyxx<->t_yyxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyxy<->t_yyxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyyx<->t_yyxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyyy<->t_yyxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxxx<->t_yyxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxxy<->t_yyxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxyx<->t_yyxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxyy<->t_yyxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyxx<->t_yyxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyxy<->t_yyxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyyx<->t_yyxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyyy<->t_yyxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxxx<->t_yyyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxxy<->t_yyyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxyx<->t_yyyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxyy<->t_yyyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyxx<->t_yyyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyxy<->t_yyyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyyx<->t_yyyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyyy<->t_yyyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxxx<->t_yyyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxxy<->t_yyyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxyx<->t_yyyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxyy<->t_yyyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyxx<->t_yyyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyxy<->t_yyyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyyx<->t_yyyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyyy<->t_yyyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxxx<->t_yyyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxxy<->t_yyyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxyx<->t_yyyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxyy<->t_yyyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyxx<->t_yyyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyxy<->t_yyyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyyx<->t_yyyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyyy<->t_yyyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxxx<->t_yyyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxxy<->t_yyyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxyx<->t_yyyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxyy<->t_yyyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyxx<->t_yyyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyxy<->t_yyyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyyx<->t_yyyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyyy<->t_yyyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxxxx<->t_xxxxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxxxy<->t_xxxxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxxyx<->t_xxxxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxxyy<->t_xxxxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxyxx<->t_xxxxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxyxy<->t_xxxxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxyyx<->t_xxxxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxxyyy<->t_xxxxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyxxx<->t_xxxxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyxxy<->t_xxxxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyxyx<->t_xxxxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyxyy<->t_xxxxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyyxx<->t_xxxxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyyxy<->t_xxxxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyyyx<->t_xxxxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxxyyyy<->t_xxxxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxxxx<->t_xxxxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxxxy<->t_xxxxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxxyx<->t_xxxxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxxyy<->t_xxxxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxyxx<->t_xxxxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxyxy<->t_xxxxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxyyx<->t_xxxxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyxyyy<->t_xxxxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyxxx<->t_xxxxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyxxy<->t_xxxxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyxyx<->t_xxxxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyxyy<->t_xxxxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyyxx<->t_xxxxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyyxy<->t_xxxxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyyyx<->t_xxxxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxxyyyyy<->t_xxxxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxxxx<->t_xxxyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxxxy<->t_xxxyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxxyx<->t_xxxyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxxyy<->t_xxxyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxyxx<->t_xxxyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxyxy<->t_xxxyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxyyx<->t_xxxyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxxyyy<->t_xxxyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyxxx<->t_xxxyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyxxy<->t_xxxyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyxyx<->t_xxxyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyxyy<->t_xxxyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyyxx<->t_xxxyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyyxy<->t_xxxyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyyyx<->t_xxxyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyxyyyy<->t_xxxyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxxxx<->t_xxxyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxxxy<->t_xxxyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxxyx<->t_xxxyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxxyy<->t_xxxyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxyxx<->t_xxxyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxyxy<->t_xxxyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxyyx<->t_xxxyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyxyyy<->t_xxxyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyxxx<->t_xxxyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyxxy<->t_xxxyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyxyx<->t_xxxyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyxyy<->t_xxxyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyyxx<->t_xxxyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyyxy<->t_xxxyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyyyx<->t_xxxyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxxyyyyyy<->t_xxxyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxxxx<->t_xxyxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxxxy<->t_xxyxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxxyx<->t_xxyxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxxyy<->t_xxyxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxyxx<->t_xxyxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxyxy<->t_xxyxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxyyx<->t_xxyxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxxyyy<->t_xxyxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyxxx<->t_xxyxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyxxy<->t_xxyxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyxyx<->t_xxyxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyxyy<->t_xxyxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyyxx<->t_xxyxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyyxy<->t_xxyxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyyyx<->t_xxyxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxxyyyy<->t_xxyxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxxxx<->t_xxyxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxxxy<->t_xxyxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxxyx<->t_xxyxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxxyy<->t_xxyxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxyxx<->t_xxyxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxyxy<->t_xxyxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxyyx<->t_xxyxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyxyyy<->t_xxyxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyxxx<->t_xxyxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyxxy<->t_xxyxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyxyx<->t_xxyxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyxyy<->t_xxyxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyyxx<->t_xxyxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyyxy<->t_xxyxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyyyx<->t_xxyxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyxyyyyy<->t_xxyxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxxxx<->t_xxyyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxxxy<->t_xxyyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxxyx<->t_xxyyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxxyy<->t_xxyyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxyxx<->t_xxyyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxyxy<->t_xxyyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxyyx<->t_xxyyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxxyyy<->t_xxyyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyxxx<->t_xxyyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyxxy<->t_xxyyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyxyx<->t_xxyyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyxyy<->t_xxyyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyyxx<->t_xxyyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyyxy<->t_xxyyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyyyx<->t_xxyyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyxyyyy<->t_xxyyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxxxx<->t_xxyyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxxxy<->t_xxyyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxxyx<->t_xxyyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxxyy<->t_xxyyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxyxx<->t_xxyyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxyxy<->t_xxyyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxyyx<->t_xxyyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyxyyy<->t_xxyyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyxxx<->t_xxyyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyxxy<->t_xxyyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyxyx<->t_xxyyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyxyy<->t_xxyyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyyxx<->t_xxyyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyyxy<->t_xxyyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyyyx<->t_xxyyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xxyyyyyyy<->t_xxyyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxxxx<->t_xyxxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxxxy<->t_xyxxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxxyx<->t_xyxxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxxyy<->t_xyxxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxyxx<->t_xyxxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxyxy<->t_xyxxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxyyx<->t_xyxxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxxyyy<->t_xyxxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyxxx<->t_xyxxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyxxy<->t_xyxxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyxyx<->t_xyxxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyxyy<->t_xyxxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyyxx<->t_xyxxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyyxy<->t_xyxxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyyyx<->t_xyxxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxxyyyy<->t_xyxxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxxxx<->t_xyxxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxxxy<->t_xyxxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxxyx<->t_xyxxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxxyy<->t_xyxxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxyxx<->t_xyxxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxyxy<->t_xyxxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxyyx<->t_xyxxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyxyyy<->t_xyxxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyxxx<->t_xyxxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyxxy<->t_xyxxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyxyx<->t_xyxxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyxyy<->t_xyxxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyyxx<->t_xyxxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyyxy<->t_xyxxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyyyx<->t_xyxxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxxyyyyy<->t_xyxxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxxxx<->t_xyxyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxxxy<->t_xyxyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxxyx<->t_xyxyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxxyy<->t_xyxyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxyxx<->t_xyxyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxyxy<->t_xyxyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxyyx<->t_xyxyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxxyyy<->t_xyxyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyxxx<->t_xyxyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyxxy<->t_xyxyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyxyx<->t_xyxyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyxyy<->t_xyxyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyyxx<->t_xyxyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyyxy<->t_xyxyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyyyx<->t_xyxyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyxyyyy<->t_xyxyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxxxx<->t_xyxyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxxxy<->t_xyxyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxxyx<->t_xyxyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxxyy<->t_xyxyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxyxx<->t_xyxyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxyxy<->t_xyxyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxyyx<->t_xyxyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyxyyy<->t_xyxyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyxxx<->t_xyxyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyxxy<->t_xyxyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyxyx<->t_xyxyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyxyy<->t_xyxyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyyxx<->t_xyxyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyyxy<->t_xyxyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyyyx<->t_xyxyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyxyyyyyy<->t_xyxyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxxxx<->t_xyyxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxxxy<->t_xyyxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxxyx<->t_xyyxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxxyy<->t_xyyxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxyxx<->t_xyyxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxyxy<->t_xyyxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxyyx<->t_xyyxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxxyyy<->t_xyyxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyxxx<->t_xyyxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyxxy<->t_xyyxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyxyx<->t_xyyxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyxyy<->t_xyyxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyyxx<->t_xyyxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyyxy<->t_xyyxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyyyx<->t_xyyxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxxyyyy<->t_xyyxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxxxx<->t_xyyxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxxxy<->t_xyyxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxxyx<->t_xyyxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxxyy<->t_xyyxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxyxx<->t_xyyxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxyxy<->t_xyyxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxyyx<->t_xyyxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyxyyy<->t_xyyxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyxxx<->t_xyyxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyxxy<->t_xyyxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyxyx<->t_xyyxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyxyy<->t_xyyxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyyxx<->t_xyyxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyyxy<->t_xyyxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyyyx<->t_xyyxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyxyyyyy<->t_xyyxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxxxx<->t_xyyyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxxxy<->t_xyyyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxxyx<->t_xyyyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxxyy<->t_xyyyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxyxx<->t_xyyyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxyxy<->t_xyyyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxyyx<->t_xyyyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxxyyy<->t_xyyyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyxxx<->t_xyyyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyxxy<->t_xyyyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyxyx<->t_xyyyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyxyy<->t_xyyyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyyxx<->t_xyyyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyyxy<->t_xyyyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyyyx<->t_xyyyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyxyyyy<->t_xyyyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxxxx<->t_xyyyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxxxy<->t_xyyyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxxyx<->t_xyyyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxxyy<->t_xyyyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxyxx<->t_xyyyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxyxy<->t_xyyyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxyyx<->t_xyyyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyxyyy<->t_xyyyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyxxx<->t_xyyyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyxxy<->t_xyyyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyxyx<->t_xyyyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyxyy<->t_xyyyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyyxx<->t_xyyyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyyxy<->t_xyyyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyyyx<->t_xyyyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_xyyyyyyyy<->t_xyyyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxxxx<->t_yxxxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxxxy<->t_yxxxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxxyx<->t_yxxxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxxyy<->t_yxxxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxyxx<->t_yxxxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxyxy<->t_yxxxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxyyx<->t_yxxxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxxyyy<->t_yxxxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyxxx<->t_yxxxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyxxy<->t_yxxxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyxyx<->t_yxxxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyxyy<->t_yxxxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyyxx<->t_yxxxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyyxy<->t_yxxxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyyyx<->t_yxxxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxxyyyy<->t_yxxxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxxxx<->t_yxxxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxxxy<->t_yxxxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxxyx<->t_yxxxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxxyy<->t_yxxxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxyxx<->t_yxxxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxyxy<->t_yxxxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxyyx<->t_yxxxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyxyyy<->t_yxxxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyxxx<->t_yxxxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyxxy<->t_yxxxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyxyx<->t_yxxxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyxyy<->t_yxxxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyyxx<->t_yxxxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyyxy<->t_yxxxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyyyx<->t_yxxxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxxyyyyy<->t_yxxxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxxxx<->t_yxxyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxxxy<->t_yxxyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxxyx<->t_yxxyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxxyy<->t_yxxyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxyxx<->t_yxxyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxyxy<->t_yxxyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxyyx<->t_yxxyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxxyyy<->t_yxxyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyxxx<->t_yxxyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyxxy<->t_yxxyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyxyx<->t_yxxyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyxyy<->t_yxxyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyyxx<->t_yxxyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyyxy<->t_yxxyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyyyx<->t_yxxyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyxyyyy<->t_yxxyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxxxx<->t_yxxyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxxxy<->t_yxxyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxxyx<->t_yxxyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxxyy<->t_yxxyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxyxx<->t_yxxyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxyxy<->t_yxxyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxyyx<->t_yxxyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyxyyy<->t_yxxyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyxxx<->t_yxxyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyxxy<->t_yxxyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyxyx<->t_yxxyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyxyy<->t_yxxyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyyxx<->t_yxxyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyyxy<->t_yxxyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyyyx<->t_yxxyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxxyyyyyy<->t_yxxyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxxxx<->t_yxyxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxxxy<->t_yxyxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxxyx<->t_yxyxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxxyy<->t_yxyxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxyxx<->t_yxyxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxyxy<->t_yxyxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxyyx<->t_yxyxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxxyyy<->t_yxyxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyxxx<->t_yxyxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyxxy<->t_yxyxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyxyx<->t_yxyxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyxyy<->t_yxyxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyyxx<->t_yxyxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyyxy<->t_yxyxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyyyx<->t_yxyxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxxyyyy<->t_yxyxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxxxx<->t_yxyxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxxxy<->t_yxyxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxxyx<->t_yxyxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxxyy<->t_yxyxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxyxx<->t_yxyxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxyxy<->t_yxyxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxyyx<->t_yxyxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyxyyy<->t_yxyxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyxxx<->t_yxyxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyxxy<->t_yxyxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyxyx<->t_yxyxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyxyy<->t_yxyxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyyxx<->t_yxyxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyyxy<->t_yxyxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyyyx<->t_yxyxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyxyyyyy<->t_yxyxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxxxx<->t_yxyyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxxxy<->t_yxyyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxxyx<->t_yxyyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxxyy<->t_yxyyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxyxx<->t_yxyyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxyxy<->t_yxyyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxyyx<->t_yxyyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxxyyy<->t_yxyyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyxxx<->t_yxyyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyxxy<->t_yxyyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyxyx<->t_yxyyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyxyy<->t_yxyyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyyxx<->t_yxyyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyyxy<->t_yxyyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyyyx<->t_yxyyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyxyyyy<->t_yxyyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxxxx<->t_yxyyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxxxy<->t_yxyyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxxyx<->t_yxyyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxxyy<->t_yxyyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxyxx<->t_yxyyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxyxy<->t_yxyyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxyyx<->t_yxyyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyxyyy<->t_yxyyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyxxx<->t_yxyyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyxxy<->t_yxyyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyxyx<->t_yxyyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyxyy<->t_yxyyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyyxx<->t_yxyyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyyxy<->t_yxyyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyyyx<->t_yxyyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yxyyyyyyy<->t_yxyyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxxxx<->t_yyxxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxxxy<->t_yyxxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxxyx<->t_yyxxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxxyy<->t_yyxxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxyxx<->t_yyxxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxyxy<->t_yyxxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxyyx<->t_yyxxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxxyyy<->t_yyxxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyxxx<->t_yyxxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyxxy<->t_yyxxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyxyx<->t_yyxxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyxyy<->t_yyxxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyyxx<->t_yyxxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyyxy<->t_yyxxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyyyx<->t_yyxxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxxyyyy<->t_yyxxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxxxx<->t_yyxxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxxxy<->t_yyxxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxxyx<->t_yyxxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxxyy<->t_yyxxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxyxx<->t_yyxxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxyxy<->t_yyxxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxyyx<->t_yyxxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyxyyy<->t_yyxxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyxxx<->t_yyxxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyxxy<->t_yyxxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyxyx<->t_yyxxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyxyy<->t_yyxxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyyxx<->t_yyxxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyyxy<->t_yyxxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyyyx<->t_yyxxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxxyyyyy<->t_yyxxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxxxx<->t_yyxyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxxxy<->t_yyxyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxxyx<->t_yyxyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxxyy<->t_yyxyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxyxx<->t_yyxyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxyxy<->t_yyxyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxyyx<->t_yyxyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxxyyy<->t_yyxyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyxxx<->t_yyxyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyxxy<->t_yyxyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyxyx<->t_yyxyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyxyy<->t_yyxyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyyxx<->t_yyxyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyyxy<->t_yyxyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyyyx<->t_yyxyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyxyyyy<->t_yyxyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxxxx<->t_yyxyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxxxy<->t_yyxyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxxyx<->t_yyxyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxxyy<->t_yyxyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxyxx<->t_yyxyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxyxy<->t_yyxyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxyyx<->t_yyxyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyxyyy<->t_yyxyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyxxx<->t_yyxyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyxxy<->t_yyxyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyxyx<->t_yyxyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyxyy<->t_yyxyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyyxx<->t_yyxyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyyxy<->t_yyxyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyyyx<->t_yyxyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyxyyyyyy<->t_yyxyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxxxx<->t_yyyxxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxxxy<->t_yyyxxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxxyx<->t_yyyxxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxxyy<->t_yyyxxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxyxx<->t_yyyxxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxyxy<->t_yyyxxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxyyx<->t_yyyxxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxxyyy<->t_yyyxxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyxxx<->t_yyyxxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyxxy<->t_yyyxxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyxyx<->t_yyyxxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyxyy<->t_yyyxxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyyxx<->t_yyyxxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyyxy<->t_yyyxxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyyyx<->t_yyyxxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxxyyyy<->t_yyyxxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxxxx<->t_yyyxyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxxxy<->t_yyyxyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxxyx<->t_yyyxyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxxyy<->t_yyyxyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxyxx<->t_yyyxyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxyxy<->t_yyyxyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxyyx<->t_yyyxyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyxyyy<->t_yyyxyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyxxx<->t_yyyxyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyxxy<->t_yyyxyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyxyx<->t_yyyxyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyxyy<->t_yyyxyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyyxx<->t_yyyxyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyyxy<->t_yyyxyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyyyx<->t_yyyxyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyxyyyyy<->t_yyyxyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxxxx<->t_yyyyxxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxxxy<->t_yyyyxxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxxyx<->t_yyyyxxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxxyy<->t_yyyyxxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxyxx<->t_yyyyxxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxyxy<->t_yyyyxxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxyyx<->t_yyyyxxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxxyyy<->t_yyyyxxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyxxx<->t_yyyyxyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyxxy<->t_yyyyxyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyxyx<->t_yyyyxyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyxyy<->t_yyyyxyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyyxx<->t_yyyyxyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyyxy<->t_yyyyxyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyyyx<->t_yyyyxyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyxyyyy<->t_yyyyxyyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxxxx<->t_yyyyyxxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxxxy<->t_yyyyyxxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxxyx<->t_yyyyyxxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxxyy<->t_yyyyyxxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxyxx<->t_yyyyyxyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxyxy<->t_yyyyyxyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxyyx<->t_yyyyyxyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyxyyy<->t_yyyyyxyyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyxxx<->t_yyyyyyxxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyxxy<->t_yyyyyyxxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyxyx<->t_yyyyyyxyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyxyy<->t_yyyyyyxyy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyyxx<->t_yyyyyyyxx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyyxy<->t_yyyyyyyxy
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyyyx<->t_yyyyyyyyx
-1 1 
-1 1 
-1 1 
-1 1 
-t_yyyyyyyyy<->t_yyyyyyyyy
-1 1 
-1 1 
-1 1 
-1 1 
+t_ = 0 0 0 1 
+t_a = 0 0 0 0 
+t_b = 0 0 0 0 🔳
+t_c = 0 0 1/2 0 
+t_d = 0 7/10 0 0 
+t_aa = 0 0 0 0 🔳
+t_ab = 0 0 0 0 🔳
+t_ac = 0 0 0 0 🔳
+t_ad = 0 0 0 0 🔳
+t_ca = 1/4 0 0 0 
+t_cb = 0 0 2/5 0 
+t_cc = 0 1/2 0 0 
+t_cd = 0 0 0 0 🔳
+t_da = 49/100 0 0 0 
+t_db = 0 49/100 0 0 
+t_dc = 0 0 0 0 🔳
+t_dd = 0 0 0 0 🔳
+t_caa = 0 0 0 0 🔳
+t_cab = 0 0 0 0 🔳
+t_cac = 0 0 0 0 🔳
+t_cad = 0 0 0 0 🔳
+t_cba = 1/5 0 0 0 
+t_cbb = 0 0 8/25 0 
+t_cbc = 0 2/5 0 0 
+t_cbd = 0 0 0 0 🔳
+t_cca = 7/20 0 0 0 
+t_ccb = 0 7/20 0 0 
+t_ccc = 0 0 0 0 🔳
+t_ccd = 0 0 0 0 🔳
+t_daa = 0 0 0 0 🔳
+t_dab = 0 0 0 0 🔳
+t_dac = 0 0 0 0 🔳
+t_dad = 0 0 0 0 🔳
+t_dba = 343/1000 0 0 0 
+t_dbb = 0 343/1000 0 0 
+t_dbc = 0 0 0 0 🔳
+t_dbd = 0 0 0 0 🔳
+t_cbaa = 0 0 0 0 🔳
+t_cbab = 0 0 0 0 🔳
+t_cbac = 0 0 0 0 🔳
+t_cbad = 0 0 0 0 🔳
+t_cbba = 4/25 0 0 0 
+t_cbbb = 0 0 32/125 0 
+t_cbbc = 0 8/25 0 0 
+t_cbbd = 0 0 0 0 🔳
+t_cbca = 7/25 0 0 0 
+t_cbcb = 0 7/25 0 0 
+t_cbcc = 0 0 0 0 🔳
+t_cbcd = 0 0 0 0 🔳
+t_ccaa = 0 0 0 0 🔳
+t_ccab = 0 0 0 0 🔳
+t_ccac = 0 0 0 0 🔳
+t_ccad = 0 0 0 0 🔳
+t_ccba = 49/200 0 0 0 
+t_ccbb = 0 49/200 0 0 
+t_ccbc = 0 0 0 0 🔳
+t_ccbd = 0 0 0 0 🔳
+t_dbaa = 0 0 0 0 🔳
+t_dbab = 0 0 0 0 🔳
+t_dbac = 0 0 0 0 🔳
+t_dbad = 0 0 0 0 🔳
+t_dbba = 2401/10000 0 0 0 
+t_dbbb = 0 2401/10000 0 0 
+t_dbbc = 0 0 0 0 🔳
+t_dbbd = 0 0 0 0 🔳
+t_cbbaa = 0 0 0 0 🔳
+t_cbbab = 0 0 0 0 🔳
+t_cbbac = 0 0 0 0 🔳
+t_cbbad = 0 0 0 0 🔳
+t_cbbba = 16/125 0 0 0 
+t_cbbbb = 0 0 128/625 0 
+t_cbbbc = 0 32/125 0 0 
+t_cbbbd = 0 0 0 0 🔳
+t_cbbca = 28/125 0 0 0 
+t_cbbcb = 0 28/125 0 0 
+t_cbbcc = 0 0 0 0 🔳
+t_cbbcd = 0 0 0 0 🔳
+t_cbcaa = 0 0 0 0 🔳
+t_cbcab = 0 0 0 0 🔳
+t_cbcac = 0 0 0 0 🔳
+t_cbcad = 0 0 0 0 🔳
+t_cbcba = 49/250 0 0 0 
+t_cbcbb = 0 49/250 0 0 
+t_cbcbc = 0 0 0 0 🔳
+t_cbcbd = 0 0 0 0 🔳
+t_ccbaa = 0 0 0 0 🔳
+t_ccbab = 0 0 0 0 🔳
+t_ccbac = 0 0 0 0 🔳
+t_ccbad = 0 0 0 0 🔳
+t_ccbba = 343/2000 0 0 0 
+t_ccbbb = 0 343/2000 0 0 
+t_ccbbc = 0 0 0 0 🔳
+t_ccbbd = 0 0 0 0 🔳
+t_dbbaa = 0 0 0 0 🔳
+t_dbbab = 0 0 0 0 🔳
+t_dbbac = 0 0 0 0 🔳
+t_dbbad = 0 0 0 0 🔳
+t_dbbba = 16807/100000 0 0 0 
+t_dbbbb = 0 16807/100000 0 0 
+t_dbbbc = 0 0 0 0 🔳
+t_dbbbd = 0 0 0 0 🔳
+t_cbbbaa = 0 0 0 0 🔳
+t_cbbbab = 0 0 0 0 🔳
+t_cbbbac = 0 0 0 0 🔳
+t_cbbbad = 0 0 0 0 🔳
+t_cbbbba = 64/625 0 0 0 
+t_cbbbbb = 0 0 512/3125 0 
+t_cbbbbc = 0 128/625 0 0 
+t_cbbbbd = 0 0 0 0 🔳
+t_cbbbca = 112/625 0 0 0 
+t_cbbbcb = 0 112/625 0 0 
+t_cbbbcc = 0 0 0 0 🔳
+t_cbbbcd = 0 0 0 0 🔳
+t_cbbcaa = 0 0 0 0 🔳
+t_cbbcab = 0 0 0 0 🔳
+t_cbbcac = 0 0 0 0 🔳
+t_cbbcad = 0 0 0 0 🔳
+t_cbbcba = 98/625 0 0 0 
+t_cbbcbb = 0 98/625 0 0 
+t_cbbcbc = 0 0 0 0 🔳
+t_cbbcbd = 0 0 0 0 🔳
+t_cbcbaa = 0 0 0 0 🔳
+t_cbcbab = 0 0 0 0 🔳
+t_cbcbac = 0 0 0 0 🔳
+t_cbcbad = 0 0 0 0 🔳
+t_cbcbba = 343/2500 0 0 0 
+t_cbcbbb = 0 343/2500 0 0 
+t_cbcbbc = 0 0 0 0 🔳
+t_cbcbbd = 0 0 0 0 🔳
+t_ccbbaa = 0 0 0 0 🔳
+t_ccbbab = 0 0 0 0 🔳
+t_ccbbac = 0 0 0 0 🔳
+t_ccbbad = 0 0 0 0 🔳
+t_ccbbba = 2401/20000 0 0 0 
+t_ccbbbb = 0 2401/20000 0 0 
+t_ccbbbc = 0 0 0 0 🔳
+t_ccbbbd = 0 0 0 0 🔳
+t_dbbbaa = 0 0 0 0 🔳
+t_dbbbab = 0 0 0 0 🔳
+t_dbbbac = 0 0 0 0 🔳
+t_dbbbad = 0 0 0 0 🔳
+t_dbbbba = 117649/1000000 0 0 0 
+t_dbbbbb = 0 117649/1000000 0 0 
+t_dbbbbc = 0 0 0 0 🔳
+t_dbbbbd = 0 0 0 0 🔳
+t_cbbbbaa = 0 0 0 0 🔳
+t_cbbbbab = 0 0 0 0 🔳
+t_cbbbbac = 0 0 0 0 🔳
+t_cbbbbad = 0 0 0 0 🔳
+t_cbbbbba = 256/3125 0 0 0 
+t_cbbbbbb = 0 0 2048/15625 0 
+t_cbbbbbc = 0 512/3125 0 0 
+t_cbbbbbd = 0 0 0 0 🔳
+t_cbbbbca = 448/3125 0 0 0 
+t_cbbbbcb = 0 448/3125 0 0 
+t_cbbbbcc = 0 0 0 0 🔳
+t_cbbbbcd = 0 0 0 0 🔳
+t_cbbbcaa = 0 0 0 0 🔳
+t_cbbbcab = 0 0 0 0 🔳
+t_cbbbcac = 0 0 0 0 🔳
+t_cbbbcad = 0 0 0 0 🔳
+t_cbbbcba = 392/3125 0 0 0 
+t_cbbbcbb = 0 392/3125 0 0 
+t_cbbbcbc = 0 0 0 0 🔳
+t_cbbbcbd = 0 0 0 0 🔳
+t_cbbcbaa = 0 0 0 0 🔳
+t_cbbcbab = 0 0 0 0 🔳
+t_cbbcbac = 0 0 0 0 🔳
+t_cbbcbad = 0 0 0 0 🔳
+t_cbbcbba = 343/3125 0 0 0 
+t_cbbcbbb = 0 343/3125 0 0 
+t_cbbcbbc = 0 0 0 0 🔳
+t_cbbcbbd = 0 0 0 0 🔳
+t_cbcbbaa = 0 0 0 0 🔳
+t_cbcbbab = 0 0 0 0 🔳
+t_cbcbbac = 0 0 0 0 🔳
+t_cbcbbad = 0 0 0 0 🔳
+t_cbcbbba = 2401/25000 0 0 0 
+t_cbcbbbb = 0 2401/25000 0 0 
+t_cbcbbbc = 0 0 0 0 🔳
+t_cbcbbbd = 0 0 0 0 🔳
+t_ccbbbaa = 0 0 0 0 🔳
+t_ccbbbab = 0 0 0 0 🔳
+t_ccbbbac = 0 0 0 0 🔳
+t_ccbbbad = 0 0 0 0 🔳
+t_ccbbbba = 16807/200000 0 0 0 
+t_ccbbbbb = 0 16807/200000 0 0 
+t_ccbbbbc = 0 0 0 0 🔳
+t_ccbbbbd = 0 0 0 0 🔳
+t_dbbbbaa = 0 0 0 0 🔳
+t_dbbbbab = 0 0 0 0 🔳
+t_dbbbbac = 0 0 0 0 🔳
+t_dbbbbad = 0 0 0 0 🔳
+t_dbbbbba = 823543/10000000 0 0 0 
+t_dbbbbbb = 0 823543/10000000 0 0 
+t_dbbbbbc = 0 0 0 0 🔳
+t_dbbbbbd = 0 0 0 0 🔳
+t_cbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbab = 0 0 0 0 🔳
+t_cbbbbbac = 0 0 0 0 🔳
+t_cbbbbbad = 0 0 0 0 🔳
+t_cbbbbbba = 1024/15625 0 0 0 
+t_cbbbbbbb = 0 0 8192/78125 0 
+t_cbbbbbbc = 0 2048/15625 0 0 
+t_cbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbca = 1792/15625 0 0 0 
+t_cbbbbbcb = 0 1792/15625 0 0 
+t_cbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbcd = 0 0 0 0 🔳
+t_cbbbbcaa = 0 0 0 0 🔳
+t_cbbbbcab = 0 0 0 0 🔳
+t_cbbbbcac = 0 0 0 0 🔳
+t_cbbbbcad = 0 0 0 0 🔳
+t_cbbbbcba = 1568/15625 0 0 0 
+t_cbbbbcbb = 0 1568/15625 0 0 
+t_cbbbbcbc = 0 0 0 0 🔳
+t_cbbbbcbd = 0 0 0 0 🔳
+t_cbbbcbaa = 0 0 0 0 🔳
+t_cbbbcbab = 0 0 0 0 🔳
+t_cbbbcbac = 0 0 0 0 🔳
+t_cbbbcbad = 0 0 0 0 🔳
+t_cbbbcbba = 1372/15625 0 0 0 
+t_cbbbcbbb = 0 1372/15625 0 0 
+t_cbbbcbbc = 0 0 0 0 🔳
+t_cbbbcbbd = 0 0 0 0 🔳
+t_cbbcbbaa = 0 0 0 0 🔳
+t_cbbcbbab = 0 0 0 0 🔳
+t_cbbcbbac = 0 0 0 0 🔳
+t_cbbcbbad = 0 0 0 0 🔳
+t_cbbcbbba = 2401/31250 0 0 0 
+t_cbbcbbbb = 0 2401/31250 0 0 
+t_cbbcbbbc = 0 0 0 0 🔳
+t_cbbcbbbd = 0 0 0 0 🔳
+t_cbcbbbaa = 0 0 0 0 🔳
+t_cbcbbbab = 0 0 0 0 🔳
+t_cbcbbbac = 0 0 0 0 🔳
+t_cbcbbbad = 0 0 0 0 🔳
+t_cbcbbbba = 16807/250000 0 0 0 
+t_cbcbbbbb = 0 16807/250000 0 0 
+t_cbcbbbbc = 0 0 0 0 🔳
+t_cbcbbbbd = 0 0 0 0 🔳
+t_ccbbbbaa = 0 0 0 0 🔳
+t_ccbbbbab = 0 0 0 0 🔳
+t_ccbbbbac = 0 0 0 0 🔳
+t_ccbbbbad = 0 0 0 0 🔳
+t_ccbbbbba = 117649/2000000 0 0 0 
+t_ccbbbbbb = 0 117649/2000000 0 0 
+t_ccbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbd = 0 0 0 0 🔳
+t_dbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbab = 0 0 0 0 🔳
+t_dbbbbbac = 0 0 0 0 🔳
+t_dbbbbbad = 0 0 0 0 🔳
+t_dbbbbbba = 5764801/100000000 0 0 0 
+t_dbbbbbbb = 0 5764801/100000000 0 0 
+t_dbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbba = 4096/78125 0 0 0 
+t_cbbbbbbbb = 0 0 32768/390625 0 
+t_cbbbbbbbc = 0 8192/78125 0 0 
+t_cbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbca = 7168/78125 0 0 0 
+t_cbbbbbbcb = 0 7168/78125 0 0 
+t_cbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbcba = 6272/78125 0 0 0 
+t_cbbbbbcbb = 0 6272/78125 0 0 
+t_cbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbcbab = 0 0 0 0 🔳
+t_cbbbbcbac = 0 0 0 0 🔳
+t_cbbbbcbad = 0 0 0 0 🔳
+t_cbbbbcbba = 5488/78125 0 0 0 
+t_cbbbbcbbb = 0 5488/78125 0 0 
+t_cbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbcbbd = 0 0 0 0 🔳
+t_cbbbcbbaa = 0 0 0 0 🔳
+t_cbbbcbbab = 0 0 0 0 🔳
+t_cbbbcbbac = 0 0 0 0 🔳
+t_cbbbcbbad = 0 0 0 0 🔳
+t_cbbbcbbba = 4802/78125 0 0 0 
+t_cbbbcbbbb = 0 4802/78125 0 0 
+t_cbbbcbbbc = 0 0 0 0 🔳
+t_cbbbcbbbd = 0 0 0 0 🔳
+t_cbbcbbbaa = 0 0 0 0 🔳
+t_cbbcbbbab = 0 0 0 0 🔳
+t_cbbcbbbac = 0 0 0 0 🔳
+t_cbbcbbbad = 0 0 0 0 🔳
+t_cbbcbbbba = 16807/312500 0 0 0 
+t_cbbcbbbbb = 0 16807/312500 0 0 
+t_cbbcbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbd = 0 0 0 0 🔳
+t_cbcbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbab = 0 0 0 0 🔳
+t_cbcbbbbac = 0 0 0 0 🔳
+t_cbcbbbbad = 0 0 0 0 🔳
+t_cbcbbbbba = 117649/2500000 0 0 0 
+t_cbcbbbbbb = 0 117649/2500000 0 0 
+t_cbcbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbba = 823543/20000000 0 0 0 
+t_ccbbbbbbb = 0 823543/20000000 0 0 
+t_ccbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbba = 40353607/1000000000 0 0 0 
+t_dbbbbbbbb = 0 40353607/1000000000 0 0 
+t_dbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbba = 16384/390625 0 0 0 
+t_cbbbbbbbbb = 0 0 131072/1953125 0 
+t_cbbbbbbbbc = 0 32768/390625 0 0 
+t_cbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbca = 28672/390625 0 0 0 
+t_cbbbbbbbcb = 0 28672/390625 0 0 
+t_cbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbcba = 25088/390625 0 0 0 
+t_cbbbbbbcbb = 0 25088/390625 0 0 
+t_cbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbcbba = 21952/390625 0 0 0 
+t_cbbbbbcbbb = 0 21952/390625 0 0 
+t_cbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbcbbba = 19208/390625 0 0 0 
+t_cbbbbcbbbb = 0 19208/390625 0 0 
+t_cbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbab = 0 0 0 0 🔳
+t_cbbbcbbbac = 0 0 0 0 🔳
+t_cbbbcbbbad = 0 0 0 0 🔳
+t_cbbbcbbbba = 16807/390625 0 0 0 
+t_cbbbcbbbbb = 0 16807/390625 0 0 
+t_cbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbba = 117649/3125000 0 0 0 
+t_cbbcbbbbbb = 0 117649/3125000 0 0 
+t_cbbcbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbba = 823543/25000000 0 0 0 
+t_cbcbbbbbbb = 0 823543/25000000 0 0 
+t_cbcbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbba = 5764801/200000000 0 0 0 
+t_ccbbbbbbbb = 0 5764801/200000000 0 0 
+t_ccbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbba = 282475249/10000000000 0 0 0 
+t_dbbbbbbbbb = 0 282475249/10000000000 0 0 
+t_dbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbba = 65536/1953125 0 0 0 
+t_cbbbbbbbbbb = 0 0 524288/9765625 0 
+t_cbbbbbbbbbc = 0 131072/1953125 0 0 
+t_cbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbca = 114688/1953125 0 0 0 
+t_cbbbbbbbbcb = 0 114688/1953125 0 0 
+t_cbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbcba = 100352/1953125 0 0 0 
+t_cbbbbbbbcbb = 0 100352/1953125 0 0 
+t_cbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbcbba = 87808/1953125 0 0 0 
+t_cbbbbbbcbbb = 0 87808/1953125 0 0 
+t_cbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbcbbba = 76832/1953125 0 0 0 
+t_cbbbbbcbbbb = 0 76832/1953125 0 0 
+t_cbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbba = 67228/1953125 0 0 0 
+t_cbbbbcbbbbb = 0 67228/1953125 0 0 
+t_cbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbba = 117649/3906250 0 0 0 
+t_cbbbcbbbbbb = 0 117649/3906250 0 0 
+t_cbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbba = 823543/31250000 0 0 0 
+t_cbbcbbbbbbb = 0 823543/31250000 0 0 
+t_cbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbba = 5764801/250000000 0 0 0 
+t_cbcbbbbbbbb = 0 5764801/250000000 0 0 
+t_cbcbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbba = 40353607/2000000000 0 0 0 
+t_ccbbbbbbbbb = 0 40353607/2000000000 0 0 
+t_ccbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbba = 1977326743/100000000000 0 0 0 
+t_dbbbbbbbbbb = 0 1977326743/100000000000 0 0 
+t_dbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbba = 262144/9765625 0 0 0 
+t_cbbbbbbbbbbb = 0 0 2097152/48828125 0 
+t_cbbbbbbbbbbc = 0 524288/9765625 0 0 
+t_cbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbca = 458752/9765625 0 0 0 
+t_cbbbbbbbbbcb = 0 458752/9765625 0 0 
+t_cbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbcba = 401408/9765625 0 0 0 
+t_cbbbbbbbbcbb = 0 401408/9765625 0 0 
+t_cbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbcbba = 351232/9765625 0 0 0 
+t_cbbbbbbbcbbb = 0 351232/9765625 0 0 
+t_cbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbba = 307328/9765625 0 0 0 
+t_cbbbbbbcbbbb = 0 307328/9765625 0 0 
+t_cbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbba = 268912/9765625 0 0 0 
+t_cbbbbbcbbbbb = 0 268912/9765625 0 0 
+t_cbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbba = 235298/9765625 0 0 0 
+t_cbbbbcbbbbbb = 0 235298/9765625 0 0 
+t_cbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbba = 823543/39062500 0 0 0 
+t_cbbbcbbbbbbb = 0 823543/39062500 0 0 
+t_cbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbba = 5764801/312500000 0 0 0 
+t_cbbcbbbbbbbb = 0 5764801/312500000 0 0 
+t_cbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbba = 40353607/2500000000 0 0 0 
+t_cbcbbbbbbbbb = 0 40353607/2500000000 0 0 
+t_cbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbba = 282475249/20000000000 0 0 0 
+t_ccbbbbbbbbbb = 0 282475249/20000000000 0 0 
+t_ccbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbba = 13841287201/1000000000000 0 0 0 
+t_dbbbbbbbbbbb = 0 13841287201/1000000000000 0 0 
+t_dbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbba = 1048576/48828125 0 0 0 
+t_cbbbbbbbbbbbb = 0 0 8388608/244140625 0 
+t_cbbbbbbbbbbbc = 0 2097152/48828125 0 0 
+t_cbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbca = 1835008/48828125 0 0 0 
+t_cbbbbbbbbbbcb = 0 1835008/48828125 0 0 
+t_cbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbcba = 1605632/48828125 0 0 0 
+t_cbbbbbbbbbcbb = 0 1605632/48828125 0 0 
+t_cbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbba = 1404928/48828125 0 0 0 
+t_cbbbbbbbbcbbb = 0 1404928/48828125 0 0 
+t_cbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbba = 1229312/48828125 0 0 0 
+t_cbbbbbbbcbbbb = 0 1229312/48828125 0 0 
+t_cbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbba = 1075648/48828125 0 0 0 
+t_cbbbbbbcbbbbb = 0 1075648/48828125 0 0 
+t_cbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbba = 941192/48828125 0 0 0 
+t_cbbbbbcbbbbbb = 0 941192/48828125 0 0 
+t_cbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbba = 823543/48828125 0 0 0 
+t_cbbbbcbbbbbbb = 0 823543/48828125 0 0 
+t_cbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbba = 5764801/390625000 0 0 0 
+t_cbbbcbbbbbbbb = 0 5764801/390625000 0 0 
+t_cbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbba = 40353607/3125000000 0 0 0 
+t_cbbcbbbbbbbbb = 0 40353607/3125000000 0 0 
+t_cbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbbba = 282475249/25000000000 0 0 0 
+t_cbcbbbbbbbbbb = 0 282475249/25000000000 0 0 
+t_cbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbbba = 1977326743/200000000000 0 0 0 
+t_ccbbbbbbbbbbb = 0 1977326743/200000000000 0 0 
+t_ccbbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbbba = 96889010407/10000000000000 0 0 0 
+t_dbbbbbbbbbbbb = 0 96889010407/10000000000000 0 0 
+t_dbbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbba = 4194304/244140625 0 0 0 
+t_cbbbbbbbbbbbbb = 0 0 33554432/1220703125 0 
+t_cbbbbbbbbbbbbc = 0 8388608/244140625 0 0 
+t_cbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbca = 7340032/244140625 0 0 0 
+t_cbbbbbbbbbbbcb = 0 7340032/244140625 0 0 
+t_cbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcba = 6422528/244140625 0 0 0 
+t_cbbbbbbbbbbcbb = 0 6422528/244140625 0 0 
+t_cbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbba = 5619712/244140625 0 0 0 
+t_cbbbbbbbbbcbbb = 0 5619712/244140625 0 0 
+t_cbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbba = 4917248/244140625 0 0 0 
+t_cbbbbbbbbcbbbb = 0 4917248/244140625 0 0 
+t_cbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbba = 4302592/244140625 0 0 0 
+t_cbbbbbbbcbbbbb = 0 4302592/244140625 0 0 
+t_cbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbba = 3764768/244140625 0 0 0 
+t_cbbbbbbcbbbbbb = 0 3764768/244140625 0 0 
+t_cbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbba = 3294172/244140625 0 0 0 
+t_cbbbbbcbbbbbbb = 0 3294172/244140625 0 0 
+t_cbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbbba = 5764801/488281250 0 0 0 
+t_cbbbbcbbbbbbbb = 0 5764801/488281250 0 0 
+t_cbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbbba = 40353607/3906250000 0 0 0 
+t_cbbbcbbbbbbbbb = 0 40353607/3906250000 0 0 
+t_cbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbbba = 282475249/31250000000 0 0 0 
+t_cbbcbbbbbbbbbb = 0 282475249/31250000000 0 0 
+t_cbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbbbba = 1977326743/250000000000 0 0 0 
+t_cbcbbbbbbbbbbb = 0 1977326743/250000000000 0 0 
+t_cbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbbbba = 13841287201/2000000000000 0 0 0 
+t_ccbbbbbbbbbbbb = 0 13841287201/2000000000000 0 0 
+t_ccbbbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbbbba = 678223072849/100000000000000 0 0 0 
+t_dbbbbbbbbbbbbb = 0 678223072849/100000000000000 0 0 
+t_dbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbba = 16777216/1220703125 0 0 0 
+t_cbbbbbbbbbbbbbb = 0 0 134217728/6103515625 0 
+t_cbbbbbbbbbbbbbc = 0 33554432/1220703125 0 0 
+t_cbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbca = 29360128/1220703125 0 0 0 
+t_cbbbbbbbbbbbbcb = 0 29360128/1220703125 0 0 
+t_cbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcba = 25690112/1220703125 0 0 0 
+t_cbbbbbbbbbbbcbb = 0 25690112/1220703125 0 0 
+t_cbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbba = 22478848/1220703125 0 0 0 
+t_cbbbbbbbbbbcbbb = 0 22478848/1220703125 0 0 
+t_cbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbba = 19668992/1220703125 0 0 0 
+t_cbbbbbbbbbcbbbb = 0 19668992/1220703125 0 0 
+t_cbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbba = 17210368/1220703125 0 0 0 
+t_cbbbbbbbbcbbbbb = 0 17210368/1220703125 0 0 
+t_cbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbba = 15059072/1220703125 0 0 0 
+t_cbbbbbbbcbbbbbb = 0 15059072/1220703125 0 0 
+t_cbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbba = 13176688/1220703125 0 0 0 
+t_cbbbbbbcbbbbbbb = 0 13176688/1220703125 0 0 
+t_cbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbba = 11529602/1220703125 0 0 0 
+t_cbbbbbcbbbbbbbb = 0 11529602/1220703125 0 0 
+t_cbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbba = 40353607/4882812500 0 0 0 
+t_cbbbbcbbbbbbbbb = 0 40353607/4882812500 0 0 
+t_cbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbba = 282475249/39062500000 0 0 0 
+t_cbbbcbbbbbbbbbb = 0 282475249/39062500000 0 0 
+t_cbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbba = 1977326743/312500000000 0 0 0 
+t_cbbcbbbbbbbbbbb = 0 1977326743/312500000000 0 0 
+t_cbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbba = 13841287201/2500000000000 0 0 0 
+t_cbcbbbbbbbbbbbb = 0 13841287201/2500000000000 0 0 
+t_cbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbba = 96889010407/20000000000000 0 0 0 
+t_ccbbbbbbbbbbbbb = 0 96889010407/20000000000000 0 0 
+t_ccbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbba = 4747561509943/1000000000000000 0 0 0 
+t_dbbbbbbbbbbbbbb = 0 4747561509943/1000000000000000 0 0 
+t_dbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbba = 67108864/6103515625 0 0 0 
+t_cbbbbbbbbbbbbbbb = 0 0 536870912/30517578125 0 
+t_cbbbbbbbbbbbbbbc = 0 134217728/6103515625 0 0 
+t_cbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbca = 117440512/6103515625 0 0 0 
+t_cbbbbbbbbbbbbbcb = 0 117440512/6103515625 0 0 
+t_cbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcba = 102760448/6103515625 0 0 0 
+t_cbbbbbbbbbbbbcbb = 0 102760448/6103515625 0 0 
+t_cbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbba = 89915392/6103515625 0 0 0 
+t_cbbbbbbbbbbbcbbb = 0 89915392/6103515625 0 0 
+t_cbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbba = 78675968/6103515625 0 0 0 
+t_cbbbbbbbbbbcbbbb = 0 78675968/6103515625 0 0 
+t_cbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbba = 68841472/6103515625 0 0 0 
+t_cbbbbbbbbbcbbbbb = 0 68841472/6103515625 0 0 
+t_cbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbba = 60236288/6103515625 0 0 0 
+t_cbbbbbbbbcbbbbbb = 0 60236288/6103515625 0 0 
+t_cbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbba = 52706752/6103515625 0 0 0 
+t_cbbbbbbbcbbbbbbb = 0 52706752/6103515625 0 0 
+t_cbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbba = 46118408/6103515625 0 0 0 
+t_cbbbbbbcbbbbbbbb = 0 46118408/6103515625 0 0 
+t_cbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbba = 40353607/6103515625 0 0 0 
+t_cbbbbbcbbbbbbbbb = 0 40353607/6103515625 0 0 
+t_cbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbba = 282475249/48828125000 0 0 0 
+t_cbbbbcbbbbbbbbbb = 0 282475249/48828125000 0 0 
+t_cbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbba = 1977326743/390625000000 0 0 0 
+t_cbbbcbbbbbbbbbbb = 0 1977326743/390625000000 0 0 
+t_cbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbba = 13841287201/3125000000000 0 0 0 
+t_cbbcbbbbbbbbbbbb = 0 13841287201/3125000000000 0 0 
+t_cbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbba = 96889010407/25000000000000 0 0 0 
+t_cbcbbbbbbbbbbbbb = 0 96889010407/25000000000000 0 0 
+t_cbcbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbba = 678223072849/200000000000000 0 0 0 
+t_ccbbbbbbbbbbbbbb = 0 678223072849/200000000000000 0 0 
+t_ccbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbba = 33232930569601/10000000000000000 0 0 0 
+t_dbbbbbbbbbbbbbbb = 0 33232930569601/10000000000000000 0 0 
+t_dbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbba = 268435456/30517578125 0 0 0 
+t_cbbbbbbbbbbbbbbbb = 0 0 2147483648/152587890625 0 
+t_cbbbbbbbbbbbbbbbc = 0 536870912/30517578125 0 0 
+t_cbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbca = 469762048/30517578125 0 0 0 
+t_cbbbbbbbbbbbbbbcb = 0 469762048/30517578125 0 0 
+t_cbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcba = 411041792/30517578125 0 0 0 
+t_cbbbbbbbbbbbbbcbb = 0 411041792/30517578125 0 0 
+t_cbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbba = 359661568/30517578125 0 0 0 
+t_cbbbbbbbbbbbbcbbb = 0 359661568/30517578125 0 0 
+t_cbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbba = 314703872/30517578125 0 0 0 
+t_cbbbbbbbbbbbcbbbb = 0 314703872/30517578125 0 0 
+t_cbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbba = 275365888/30517578125 0 0 0 
+t_cbbbbbbbbbbcbbbbb = 0 275365888/30517578125 0 0 
+t_cbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbba = 240945152/30517578125 0 0 0 
+t_cbbbbbbbbbcbbbbbb = 0 240945152/30517578125 0 0 
+t_cbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbba = 210827008/30517578125 0 0 0 
+t_cbbbbbbbbcbbbbbbb = 0 210827008/30517578125 0 0 
+t_cbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbba = 184473632/30517578125 0 0 0 
+t_cbbbbbbbcbbbbbbbb = 0 184473632/30517578125 0 0 
+t_cbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbba = 161414428/30517578125 0 0 0 
+t_cbbbbbbcbbbbbbbbb = 0 161414428/30517578125 0 0 
+t_cbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbba = 282475249/61035156250 0 0 0 
+t_cbbbbbcbbbbbbbbbb = 0 282475249/61035156250 0 0 
+t_cbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbba = 1977326743/488281250000 0 0 0 
+t_cbbbbcbbbbbbbbbbb = 0 1977326743/488281250000 0 0 
+t_cbbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbba = 13841287201/3906250000000 0 0 0 
+t_cbbbcbbbbbbbbbbbb = 0 13841287201/3906250000000 0 0 
+t_cbbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbba = 96889010407/31250000000000 0 0 0 
+t_cbbcbbbbbbbbbbbbb = 0 96889010407/31250000000000 0 0 
+t_cbbcbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbba = 678223072849/250000000000000 0 0 0 
+t_cbcbbbbbbbbbbbbbb = 0 678223072849/250000000000000 0 0 
+t_cbcbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbba = 4747561509943/2000000000000000 0 0 0 
+t_ccbbbbbbbbbbbbbbb = 0 4747561509943/2000000000000000 0 0 
+t_ccbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbba = 232630513987207/100000000000000000 0 0 0 
+t_dbbbbbbbbbbbbbbbb = 0 232630513987207/100000000000000000 0 0 
+t_dbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbba = 1073741824/152587890625 0 0 0 
+t_cbbbbbbbbbbbbbbbbb = 0 0 8589934592/762939453125 0 
+t_cbbbbbbbbbbbbbbbbc = 0 2147483648/152587890625 0 0 
+t_cbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbca = 1879048192/152587890625 0 0 0 
+t_cbbbbbbbbbbbbbbbcb = 0 1879048192/152587890625 0 0 
+t_cbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcba = 1644167168/152587890625 0 0 0 
+t_cbbbbbbbbbbbbbbcbb = 0 1644167168/152587890625 0 0 
+t_cbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbba = 1438646272/152587890625 0 0 0 
+t_cbbbbbbbbbbbbbcbbb = 0 1438646272/152587890625 0 0 
+t_cbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbba = 1258815488/152587890625 0 0 0 
+t_cbbbbbbbbbbbbcbbbb = 0 1258815488/152587890625 0 0 
+t_cbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbba = 1101463552/152587890625 0 0 0 
+t_cbbbbbbbbbbbcbbbbb = 0 1101463552/152587890625 0 0 
+t_cbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbba = 963780608/152587890625 0 0 0 
+t_cbbbbbbbbbbcbbbbbb = 0 963780608/152587890625 0 0 
+t_cbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbba = 843308032/152587890625 0 0 0 
+t_cbbbbbbbbbcbbbbbbb = 0 843308032/152587890625 0 0 
+t_cbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbba = 737894528/152587890625 0 0 0 
+t_cbbbbbbbbcbbbbbbbb = 0 737894528/152587890625 0 0 
+t_cbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbba = 645657712/152587890625 0 0 0 
+t_cbbbbbbbcbbbbbbbbb = 0 645657712/152587890625 0 0 
+t_cbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbba = 564950498/152587890625 0 0 0 
+t_cbbbbbbcbbbbbbbbbb = 0 564950498/152587890625 0 0 
+t_cbbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbba = 1977326743/610351562500 0 0 0 
+t_cbbbbbcbbbbbbbbbbb = 0 1977326743/610351562500 0 0 
+t_cbbbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbba = 13841287201/4882812500000 0 0 0 
+t_cbbbbcbbbbbbbbbbbb = 0 13841287201/4882812500000 0 0 
+t_cbbbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbba = 96889010407/39062500000000 0 0 0 
+t_cbbbcbbbbbbbbbbbbb = 0 96889010407/39062500000000 0 0 
+t_cbbbcbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbba = 678223072849/312500000000000 0 0 0 
+t_cbbcbbbbbbbbbbbbbb = 0 678223072849/312500000000000 0 0 
+t_cbbcbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbba = 4747561509943/2500000000000000 0 0 0 
+t_cbcbbbbbbbbbbbbbbb = 0 4747561509943/2500000000000000 0 0 
+t_cbcbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbba = 33232930569601/20000000000000000 0 0 0 
+t_ccbbbbbbbbbbbbbbbb = 0 33232930569601/20000000000000000 0 0 
+t_ccbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbba = 1628413597910449/1000000000000000000 0 0 0 
+t_dbbbbbbbbbbbbbbbbb = 0 1628413597910449/1000000000000000000 0 0 
+t_dbbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbba = 4294967296/762939453125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbb = 0 0 34359738368/3814697265625 0 
+t_cbbbbbbbbbbbbbbbbbc = 0 8589934592/762939453125 0 0 
+t_cbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbca = 7516192768/762939453125 0 0 0 
+t_cbbbbbbbbbbbbbbbbcb = 0 7516192768/762939453125 0 0 
+t_cbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcba = 6576668672/762939453125 0 0 0 
+t_cbbbbbbbbbbbbbbbcbb = 0 6576668672/762939453125 0 0 
+t_cbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbba = 5754585088/762939453125 0 0 0 
+t_cbbbbbbbbbbbbbbcbbb = 0 5754585088/762939453125 0 0 
+t_cbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbba = 5035261952/762939453125 0 0 0 
+t_cbbbbbbbbbbbbbcbbbb = 0 5035261952/762939453125 0 0 
+t_cbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbba = 4405854208/762939453125 0 0 0 
+t_cbbbbbbbbbbbbcbbbbb = 0 4405854208/762939453125 0 0 
+t_cbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbba = 3855122432/762939453125 0 0 0 
+t_cbbbbbbbbbbbcbbbbbb = 0 3855122432/762939453125 0 0 
+t_cbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbba = 3373232128/762939453125 0 0 0 
+t_cbbbbbbbbbbcbbbbbbb = 0 3373232128/762939453125 0 0 
+t_cbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbba = 2951578112/762939453125 0 0 0 
+t_cbbbbbbbbbcbbbbbbbb = 0 2951578112/762939453125 0 0 
+t_cbbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbba = 2582630848/762939453125 0 0 0 
+t_cbbbbbbbbcbbbbbbbbb = 0 2582630848/762939453125 0 0 
+t_cbbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbba = 2259801992/762939453125 0 0 0 
+t_cbbbbbbbcbbbbbbbbbb = 0 2259801992/762939453125 0 0 
+t_cbbbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbba = 1977326743/762939453125 0 0 0 
+t_cbbbbbbcbbbbbbbbbbb = 0 1977326743/762939453125 0 0 
+t_cbbbbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbba = 13841287201/6103515625000 0 0 0 
+t_cbbbbbcbbbbbbbbbbbb = 0 13841287201/6103515625000 0 0 
+t_cbbbbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbba = 96889010407/48828125000000 0 0 0 
+t_cbbbbcbbbbbbbbbbbbb = 0 96889010407/48828125000000 0 0 
+t_cbbbbcbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbba = 678223072849/390625000000000 0 0 0 
+t_cbbbcbbbbbbbbbbbbbb = 0 678223072849/390625000000000 0 0 
+t_cbbbcbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbba = 4747561509943/3125000000000000 0 0 0 
+t_cbbcbbbbbbbbbbbbbbb = 0 4747561509943/3125000000000000 0 0 
+t_cbbcbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbba = 33232930569601/25000000000000000 0 0 0 
+t_cbcbbbbbbbbbbbbbbbb = 0 33232930569601/25000000000000000 0 0 
+t_cbcbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbba = 232630513987207/200000000000000000 0 0 0 
+t_ccbbbbbbbbbbbbbbbbb = 0 232630513987207/200000000000000000 0 0 
+t_ccbbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbba = 11398895185373143/10000000000000000000 0 0 0 
+t_dbbbbbbbbbbbbbbbbbb = 0 11398895185373143/10000000000000000000 0 0 
+t_dbbbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbba = 17179869184/3814697265625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbb = 0 0 137438953472/19073486328125 0 
+t_cbbbbbbbbbbbbbbbbbbc = 0 34359738368/3814697265625 0 0 
+t_cbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbca = 30064771072/3814697265625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbcb = 0 30064771072/3814697265625 0 0 
+t_cbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcba = 26306674688/3814697265625 0 0 0 
+t_cbbbbbbbbbbbbbbbbcbb = 0 26306674688/3814697265625 0 0 
+t_cbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbba = 23018340352/3814697265625 0 0 0 
+t_cbbbbbbbbbbbbbbbcbbb = 0 23018340352/3814697265625 0 0 
+t_cbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbba = 20141047808/3814697265625 0 0 0 
+t_cbbbbbbbbbbbbbbcbbbb = 0 20141047808/3814697265625 0 0 
+t_cbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbba = 17623416832/3814697265625 0 0 0 
+t_cbbbbbbbbbbbbbcbbbbb = 0 17623416832/3814697265625 0 0 
+t_cbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbba = 15420489728/3814697265625 0 0 0 
+t_cbbbbbbbbbbbbcbbbbbb = 0 15420489728/3814697265625 0 0 
+t_cbbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbba = 13492928512/3814697265625 0 0 0 
+t_cbbbbbbbbbbbcbbbbbbb = 0 13492928512/3814697265625 0 0 
+t_cbbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbba = 11806312448/3814697265625 0 0 0 
+t_cbbbbbbbbbbcbbbbbbbb = 0 11806312448/3814697265625 0 0 
+t_cbbbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbba = 10330523392/3814697265625 0 0 0 
+t_cbbbbbbbbbcbbbbbbbbb = 0 10330523392/3814697265625 0 0 
+t_cbbbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbba = 9039207968/3814697265625 0 0 0 
+t_cbbbbbbbbcbbbbbbbbbb = 0 9039207968/3814697265625 0 0 
+t_cbbbbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbba = 7909306972/3814697265625 0 0 0 
+t_cbbbbbbbcbbbbbbbbbbb = 0 7909306972/3814697265625 0 0 
+t_cbbbbbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbba = 13841287201/7629394531250 0 0 0 
+t_cbbbbbbcbbbbbbbbbbbb = 0 13841287201/7629394531250 0 0 
+t_cbbbbbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbba = 96889010407/61035156250000 0 0 0 
+t_cbbbbbcbbbbbbbbbbbbb = 0 96889010407/61035156250000 0 0 
+t_cbbbbbcbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbba = 678223072849/488281250000000 0 0 0 
+t_cbbbbcbbbbbbbbbbbbbb = 0 678223072849/488281250000000 0 0 
+t_cbbbbcbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbba = 4747561509943/3906250000000000 0 0 0 
+t_cbbbcbbbbbbbbbbbbbbb = 0 4747561509943/3906250000000000 0 0 
+t_cbbbcbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbba = 33232930569601/31250000000000000 0 0 0 
+t_cbbcbbbbbbbbbbbbbbbb = 0 33232930569601/31250000000000000 0 0 
+t_cbbcbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbcbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_ccbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_dbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbba = 68719476736/19073486328125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbb = 0 0 549755813888/95367431640625 0 
+t_cbbbbbbbbbbbbbbbbbbbc = 0 137438953472/19073486328125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbca = 120259084288/19073486328125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbcb = 0 120259084288/19073486328125 0 0 
+t_cbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcba = 105226698752/19073486328125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbcbb = 0 105226698752/19073486328125 0 0 
+t_cbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbba = 92073361408/19073486328125 0 0 0 
+t_cbbbbbbbbbbbbbbbbcbbb = 0 92073361408/19073486328125 0 0 
+t_cbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbba = 80564191232/19073486328125 0 0 0 
+t_cbbbbbbbbbbbbbbbcbbbb = 0 80564191232/19073486328125 0 0 
+t_cbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbba = 70493667328/19073486328125 0 0 0 
+t_cbbbbbbbbbbbbbbcbbbbb = 0 70493667328/19073486328125 0 0 
+t_cbbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbba = 61681958912/19073486328125 0 0 0 
+t_cbbbbbbbbbbbbbcbbbbbb = 0 61681958912/19073486328125 0 0 
+t_cbbbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbba = 53971714048/19073486328125 0 0 0 
+t_cbbbbbbbbbbbbcbbbbbbb = 0 53971714048/19073486328125 0 0 
+t_cbbbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbba = 47225249792/19073486328125 0 0 0 
+t_cbbbbbbbbbbbcbbbbbbbb = 0 47225249792/19073486328125 0 0 
+t_cbbbbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbba = 41322093568/19073486328125 0 0 0 
+t_cbbbbbbbbbbcbbbbbbbbb = 0 41322093568/19073486328125 0 0 
+t_cbbbbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbba = 36156831872/19073486328125 0 0 0 
+t_cbbbbbbbbbcbbbbbbbbbb = 0 36156831872/19073486328125 0 0 
+t_cbbbbbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbba = 31637227888/19073486328125 0 0 0 
+t_cbbbbbbbbcbbbbbbbbbbb = 0 31637227888/19073486328125 0 0 
+t_cbbbbbbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbba = 27682574402/19073486328125 0 0 0 
+t_cbbbbbbbcbbbbbbbbbbbb = 0 27682574402/19073486328125 0 0 
+t_cbbbbbbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbba = 96889010407/76293945312500 0 0 0 
+t_cbbbbbbcbbbbbbbbbbbbb = 0 96889010407/76293945312500 0 0 
+t_cbbbbbbcbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbba = 678223072849/610351562500000 0 0 0 
+t_cbbbbbcbbbbbbbbbbbbbb = 0 678223072849/610351562500000 0 0 
+t_cbbbbbcbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbcbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbcbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbcbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbba = 274877906944/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbb = 0 0 2199023255552/476837158203125 0 
+t_cbbbbbbbbbbbbbbbbbbbbc = 0 549755813888/95367431640625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbca = 481036337152/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcb = 0 481036337152/95367431640625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcba = 420906795008/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbb = 0 420906795008/95367431640625 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbba = 368293445632/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbcbbb = 0 368293445632/95367431640625 0 0 
+t_cbbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbba = 322256764928/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbbbbbcbbbb = 0 322256764928/95367431640625 0 0 
+t_cbbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbba = 281974669312/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbbbbcbbbbb = 0 281974669312/95367431640625 0 0 
+t_cbbbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbba = 246727835648/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbbbcbbbbbb = 0 246727835648/95367431640625 0 0 
+t_cbbbbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbba = 215886856192/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbbcbbbbbbb = 0 215886856192/95367431640625 0 0 
+t_cbbbbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbba = 188900999168/95367431640625 0 0 0 
+t_cbbbbbbbbbbbbcbbbbbbbb = 0 188900999168/95367431640625 0 0 
+t_cbbbbbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbba = 165288374272/95367431640625 0 0 0 
+t_cbbbbbbbbbbbcbbbbbbbbb = 0 165288374272/95367431640625 0 0 
+t_cbbbbbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbba = 144627327488/95367431640625 0 0 0 
+t_cbbbbbbbbbbcbbbbbbbbbb = 0 144627327488/95367431640625 0 0 
+t_cbbbbbbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbba = 126548911552/95367431640625 0 0 0 
+t_cbbbbbbbbbcbbbbbbbbbbb = 0 126548911552/95367431640625 0 0 
+t_cbbbbbbbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbba = 110730297608/95367431640625 0 0 0 
+t_cbbbbbbbbcbbbbbbbbbbbb = 0 110730297608/95367431640625 0 0 
+t_cbbbbbbbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbba = 96889010407/95367431640625 0 0 0 
+t_cbbbbbbbcbbbbbbbbbbbbb = 0 96889010407/95367431640625 0 0 
+t_cbbbbbbbcbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbcbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbcbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbba = 1099511627776/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbb = 0 0 8796093022208/2384185791015625 0 
+t_cbbbbbbbbbbbbbbbbbbbbbc = 0 2199023255552/476837158203125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbca = 1924145348608/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbcb = 0 1924145348608/476837158203125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcba = 1683627180032/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcbb = 0 1683627180032/476837158203125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbba = 1473173782528/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbbb = 0 1473173782528/476837158203125 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbba = 1289027059712/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbcbbbb = 0 1289027059712/476837158203125 0 0 
+t_cbbbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbba = 1127898677248/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbbbbcbbbbb = 0 1127898677248/476837158203125 0 0 
+t_cbbbbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbba = 986911342592/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbbbcbbbbbb = 0 986911342592/476837158203125 0 0 
+t_cbbbbbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbba = 863547424768/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbbcbbbbbbb = 0 863547424768/476837158203125 0 0 
+t_cbbbbbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbba = 755603996672/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbbcbbbbbbbb = 0 755603996672/476837158203125 0 0 
+t_cbbbbbbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbba = 661153497088/476837158203125 0 0 0 
+t_cbbbbbbbbbbbbcbbbbbbbbb = 0 661153497088/476837158203125 0 0 
+t_cbbbbbbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbba = 578509309952/476837158203125 0 0 0 
+t_cbbbbbbbbbbbcbbbbbbbbbb = 0 578509309952/476837158203125 0 0 
+t_cbbbbbbbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbba = 506195646208/476837158203125 0 0 0 
+t_cbbbbbbbbbbcbbbbbbbbbbb = 0 506195646208/476837158203125 0 0 
+t_cbbbbbbbbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbcbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbcbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbba = 4398046511104/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbb = 0 0 35184372088832/11920928955078125 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbc = 0 8796093022208/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbca = 7696581394432/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbcb = 0 7696581394432/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcba = 6734508720128/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbcbb = 0 6734508720128/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbba = 5892695130112/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcbbb = 0 5892695130112/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbba = 5156108238848/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbbbb = 0 5156108238848/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbba = 4511594708992/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbcbbbbb = 0 4511594708992/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbba = 3947645370368/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbbbcbbbbbb = 0 3947645370368/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbba = 3454189699072/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbbcbbbbbbb = 0 3454189699072/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbba = 3022415986688/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbbcbbbbbbbb = 0 3022415986688/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbba = 2644613988352/2384185791015625 0 0 0 
+t_cbbbbbbbbbbbbbcbbbbbbbbb = 0 2644613988352/2384185791015625 0 0 
+t_cbbbbbbbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbcbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbcbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbba = 17592186044416/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbb = 0 0 140737488355328/59604644775390625 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbc = 0 35184372088832/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbca = 30786325577728/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbcb = 0 30786325577728/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcba = 26938034880512/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbcbb = 0 26938034880512/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbba = 23570780520448/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbcbbb = 0 23570780520448/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbba = 20624432955392/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcbbbb = 0 20624432955392/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbba = 18046378835968/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbbbbb = 0 18046378835968/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbba = 15790581481472/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbcbbbbbb = 0 15790581481472/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbba = 13816758796288/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbbcbbbbbbb = 0 13816758796288/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbba = 12089663946752/11920928955078125 0 0 0 
+t_cbbbbbbbbbbbbbbbcbbbbbbbb = 0 12089663946752/11920928955078125 0 0 
+t_cbbbbbbbbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbcbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbba = 70368744177664/59604644775390625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbb = 0 0 562949953421312/298023223876953125 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbc = 0 140737488355328/59604644775390625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbca = 123145302310912/59604644775390625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbcb = 0 123145302310912/59604644775390625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcba = 107752139522048/59604644775390625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbcbb = 0 107752139522048/59604644775390625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbba = 94283122081792/59604644775390625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbcbbb = 0 94283122081792/59604644775390625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbba = 82497731821568/59604644775390625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbcbbbb = 0 82497731821568/59604644775390625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbba = 72185515343872/59604644775390625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcbbbbb = 0 72185515343872/59604644775390625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbba = 63162325925888/59604644775390625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbbbbbb = 0 63162325925888/59604644775390625 0 0 
+t_cbbbbbbbbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbcbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbcbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbb = 0 0 2251799813685248/1490116119384765625 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbc = 0 562949953421312/298023223876953125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbca = 492581209243648/298023223876953125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcb = 0 492581209243648/298023223876953125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcba = 431008558088192/298023223876953125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbb = 0 431008558088192/298023223876953125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbba = 377132488327168/298023223876953125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbb = 0 377132488327168/298023223876953125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbba = 329990927286272/298023223876953125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbb = 0 329990927286272/298023223876953125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbcbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbcbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbb = 0 0 9007199254740992/7450580596923828125 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbc = 0 2251799813685248/1490116119384765625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbca = 1970324836974592/1490116119384765625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcb = 0 1970324836974592/1490116119384765625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcba = 1724034232352768/1490116119384765625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbb = 0 1724034232352768/1490116119384765625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbba = 1508529953308672/1490116119384765625 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbb = 0 1508529953308672/1490116119384765625 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbcbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbbc = 0 9007199254740992/7450580596923828125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbca = 7881299347898368/7450580596923828125 0 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcb = 0 7881299347898368/7450580596923828125 0 0 
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbcbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbcbbbd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbbca = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbbcb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbbcc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbbcd = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcaa = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcab = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcac = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcad = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcba = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcbb = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcbc = 0 0 0 0 🔳
+t_cbbbbbbbbbbbbbbbbbbbbbbbbbbcbd = 0 0 0 0 🔳
+

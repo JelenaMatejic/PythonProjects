@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row align-items-start">
+            <h1 class="text-primary mt-3 mb-3">Max-Plus Simulations & Bisimulations</h1>
+
+            <div class="alert alert-danger d-none" role="alert" id="alert">
+                <span id="alertText"></span>
+            </div>
+
+            <div class="col-4">
+                <form id="max-plus-form">
+                    <!-- File upload buttons -->
+                    <input class="form-control text-primary mb-1" type="file" id="formFile1">
+                    <input class="form-control text-primary mb-1" type="file" id="formFile2">
+
+                    <div id="formCheckboxes">
+                        <!-- Show checkbox options -->
+                    </div>
+
+                    <!-- Compute & Download buttons -->
+                    <button type="button" class="btn btn-primary mt-1 mb-3" onclick="fetchMaxPlusData()">Compute</button>
+                    <button type="button" class="btn btn-primary mt-1 mb-3" id="downloadResults" disabled>Download Results</button>
+                </form>
+            </div>
+
+            <div class="col-4">
+                <h5 class="text-primary" id="automatonATitle"></h5>
+                <div class="overflow-auto" id="automatonA">
+                    <!-- Automaton A Input parameters -->
+                </div>
+            </div>
+
+            <div class="col-4">
+                <h5 class="text-primary" id="automatonBTitle"></h5>
+                <div class="overflow-auto" id="automatonB">
+                    <!-- Automaton B Input parameters -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="results">
+        <div class="row align-items-start" id="showResults">
+            <!-- Place for all calculations -->
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>        
+
+    <script>
+        types = {forwardSimulation: 'Forward Simulation', backwardSimulation: 'Backward Simulation', forwardBisimulation: 'Forward Bisimulation', backwardBisimulation: 'Backward Bisimulation', forwardBackwardBisimulation: 'Forward-Backward Bisimulation', backwardForwardBisimulation: 'Backward-Forward Bisimulation'};
+
+        // DOM
+        form = document.getElementById('max-plus-form');
+        formData = new FormData(form);
+        divAlert = document.getElementById('alert');
+        spanAlertText = document.getElementById('alertText');
+        spanAutomatonATitle = document.getElementById('automatonATitle');
+        spanAutomatonBTitle = document.getElementById('automatonBTitle');
+
+        window.addEventListener("load", () => {
+            showCheckBoxes();
+            showResultBoxes();
+        });
+
+        function showCheckBoxes() {
+            let elements = ``;
+            for(type in types) {
+                elements += 
+                `<div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="${type}" checked>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">${types[type]}</label>
+                </div>`;
+            }
+            document.getElementById("formCheckboxes").innerHTML = elements;
+        }
+
+        function showResultBoxes() {
+            let elements = ``;
+            for(type in types) {
+                elements += 
+                `<div class="col-4 mb-3" id="${type}Box">
+                    <div class="border rounded mr-1 p-2">
+                        <h5 class="text-primary">${types[type]}</h5>
+                        <div class="overflow-auto" id="${type}Result">
+                            <!-- Place for results -->
+                        </div>
+                    </div>
+                </div>`;
+            }
+            document.getElementById("showResults").innerHTML = elements;
+        }
+        
+
+        function getElement(element) {
+            if(element == 'inf') {
+                return `+<i class="bi bi-infinity"></i>`;
+            } else if(element == '-inf') {
+                return `-<i class="bi bi-infinity"></i>`;
+            } else {
+                return element;
+            }
+        }
+
+        function writeMatrix(matrix, elementID, name, subscriptName, superscriptName, subscriptMatrix, superscriptMatrix) {
+            let elementHTML = document.getElementById(elementID);
+            let matrixString = `<div class="d-flex align-items-center mb-2">`;
+            matrixString += `<span class="fw-bold">${name}<sub>${subscriptName}</sub><sup>${superscriptName}</sup> = </span> &nbsp;`;
+            matrixString += `<table class="text-center m-1 p-1 rounded border-start border-end border-secondary">`;
+
+            // Iterate through each row
+            for (let row = 0; row < matrix.length; row++) {
+                // Iterate through each column in the current row
+                matrixString += '<tr>';
+                for (let col = 0; col < matrix[row].length; col++) {
+                    let element = matrix[row][col];
+                    matrixString += `<td class="text-center">${getElement(element)}</td>`;
+                }
+                matrixString += '</tr>';
+            }
+            matrixString += `</table><sub>${subscriptMatrix}</sub><sup>${superscriptMatrix}</sup>`;
+            matrixString += `</div>`;
+            elementHTML.innerHTML += matrixString;
+        }
+
+        function writeAutomatas(dataArray) {
+            dataArray.forEach(obj => {
+                if("automatonA" in obj) {
+                    automatonA = obj["automatonA"];
+                    for(key in automatonA) {
+                        if(key == "start") {
+                            document.getElementById("automatonA").innerHTML = "";
+                            writeMatrix(automatonA["start"].value, "automatonA", "&#963;", "", "A", "", "");
+                        } else if(key == "end") {
+                            writeMatrix(automatonA["end"].value, "automatonA", "&#964;", "", "A", "", "T");
+                        } else {
+                            writeMatrix(automatonA[key].value, "automatonA", "&#948;", key, "A", "", "");
+                        }
+                    }
+                }
+                else if("automatonB" in obj) {
+                    automatonB = obj["automatonB"];
+                    for(key in automatonB) {
+                        if(key == "start") {
+                            document.getElementById("automatonB").innerHTML = "";
+                            writeMatrix(automatonB["start"].value, "automatonB", "&#963;", "", "B", "", "");
+                        } else if(key == "end") {
+                            writeMatrix(automatonB["end"].value, "automatonB", "&#964;", "", "B", "", "T");
+                        } else {
+                            writeMatrix(automatonB[key].value, "automatonB", "&#948;", key, "B", "", "");
+                        }
+                    }
+                }
+            });
+        }
+
+        function writeCalculatedResults(dataArray) {
+            for(type in types) {
+                // Get checked options
+                let results = null;
+                dataArray.forEach(obj => {
+                    if(type in obj) {
+                        results = obj[type];
+                    }
+                });
+
+                // Hide box if it is not checked
+                let divBox = document.getElementById(`${type}Box`);
+                divBox.classList.remove("d-none");
+                if(results == null) {
+                    divBox.classList.add("d-none");
+                } else {
+                    // Show results
+                    document.getElementById(`${type}Result`).innerHTML = "";
+                    for(key in results) {
+                        let nameArray = key.split("_");
+                        writeMatrix(results[key].value, `${type}Result`, nameArray[0], nameArray[1], nameArray[2], "", "");
+                        let btnDownloadResults = document.getElementById("downloadResults");
+                        btnDownloadResults.disabled = false;
+                    }
+                }
+            }
+        }
+
+        // Function to make the API call to the backend
+        function fetchMaxPlusData() {
+            spanAutomatonATitle.innerHTML = "Automaton A";
+            spanAutomatonBTitle.innerHTML = "Automaton B";
+            
+            // Get the uploaded files
+            let file1 = document.getElementById('formFile1').files[0];
+            let file2 = document.getElementById('formFile2').files[0];
+            divAlert.classList.add("d-none");
+            if(file1 == undefined || file2 == undefined) {
+                spanAlertText.innerHTML = `Make sure you have selected the files`;
+                divAlert.classList.remove("d-none");
+            }
+
+            // Append the files to the form data
+            formData.append('file1', file1);
+            formData.append('file2', file2);
+
+            // Get the checkbox values and add them as a JSON object to the form data
+            for(type in types) {
+                formData.append(type, document.getElementById(type).checked);
+            }
+            
+            fetch('/max-plus', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Get array from JSON response
+                let dataArray = Object.entries(data).map(([key, value]) => {
+                    return { [key]: value };
+                });
+
+                // Read automatas and write them on screen
+                writeAutomatas(dataArray);
+
+                // Write calculations
+                writeCalculatedResults(dataArray)
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+        }
+    </script>
+</body>
+</html>

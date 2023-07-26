@@ -90,7 +90,7 @@ class Application:
                     sigma_B_T = sigma_B.transpose() # column vector
 
                     if checkbox_text == "Forward Simulation":
-                        print("Forward Simulation")
+                        print("----- Forward Simulation -----")
                         # U_1_fs = tau_A \ tau_B
                         U_1_fs = utility.right_residual(tau_A, tau_B)
                         U_1_fs.name = "U_1_fs"
@@ -120,7 +120,7 @@ class Application:
                                 
 
                     if checkbox_text == "Backward Simulation":
-                        print("Backward Simulation")
+                        print("----- Backward Simulation -----")
                         # sigma_A \ sigma_B
                         U_1_bs = utility.right_residual(sigma_A, sigma_B)
                         U_1_bs.name = "U_1_bs"
@@ -147,7 +147,7 @@ class Application:
                                 U_1_bs.print_matrix()
 
                     if checkbox_text == "Forward Bisimulation":
-                        print("Forward Bisimulation")
+                        print("----- Forward Bisimulation -----")
                         # (tau_A \ tau_B) i (tau_A / tau_B)
                         U_1_fb = utility.matrix_min(utility.right_residual(tau_A, tau_B), utility.left_residual(tau_A_T, tau_B_T))
                         U_1_fb.name = "U_1_fb"
@@ -180,7 +180,7 @@ class Application:
                                 U_1_fb.print_matrix()
 
                     if checkbox_text == "Backward Bisimulation":
-                        print("Backward Bisimulation")
+                        print("----- Backward Bisimulation -----")
                         # (sigma_A \ sigma_B) i (sigma_A / sigma_B)
                         U_1_bb = utility.matrix_min(utility.right_residual(sigma_A, sigma_B), utility.left_residual(sigma_A_T, sigma_B_T))
                         U_1_bb.name = "U_1_bb"
@@ -212,7 +212,7 @@ class Application:
                                 U_1_bb.print_matrix()
 
                     if checkbox_text == "Forward-Backward Bisimulation":
-                        print("Forward-Backward Bisimulation")
+                        print("----- Forward-Backward Bisimulation -----")
                         # (sigma_A / sigma_B) i (tau_A \ tau_B)
                         U_1_fbb = utility.matrix_min(utility.left_residual(sigma_A_T, sigma_B_T), utility.right_residual(tau_A, tau_B))
                         U_1_fbb.name = "U_1_fbb"
@@ -246,7 +246,7 @@ class Application:
                                 U_1_fbb.print_matrix()
 
                     if checkbox_text == "Backward-Forward Bisimulation":
-                        print("Backward-Forward Bisimulation")
+                        print("----- Backward-Forward Bisimulation -----")
                         # (sigma_A \ sigma_B) i (tau_A / tau_B)
                         U_1_bfb = utility.matrix_min(utility.right_residual(sigma_A, sigma_B), utility.left_residual(tau_A_T, tau_B_T))
                         U_1_bfb.name = "U_1_bfb"

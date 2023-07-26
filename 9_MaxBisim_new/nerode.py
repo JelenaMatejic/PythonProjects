@@ -3,7 +3,7 @@ from hashlib import new
 import tkinter as tk
 from turtle import right
 from unicodedata import decimal
-from matplotlib import projections
+#from matplotlib import projections
 import numpy as np
 from traceback import print_tb
 from matrix import Matrix

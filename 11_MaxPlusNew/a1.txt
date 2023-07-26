@@ -1,0 +1,9 @@
+states
+2
+start
+1,-
+end 
+-,0
+transition x
+4,1
+-,2

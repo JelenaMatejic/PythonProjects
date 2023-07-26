@@ -1,7 +1,7 @@
 # from curses import window
 from fileinput import filename
 from turtle import color
-from matplotlib.pyplot import text
+# from matplotlib.pyplot import text
 from nerode import NerodovaKonstrukcija
 import tkinter as tk
 from tkinter import *
@@ -19,16 +19,16 @@ def openfile_A():
     selected_file = filedialog.askopenfilename()
     label_file.config(bg="SystemButtonFace")
     label_file.config(fg="black")  
-    file_name = selected_file.split('/')[len(selected_file.split('/'))-1]
-    label_file['text'] = file_name
+    # file_name = selected_file.split('/')[len(selected_file.split('/'))-1]
+    label_file['text'] = selected_file
     return selected_file
 
 def openfile_B():
     selected_file = filedialog.askopenfilename()
     label_file_2.config(bg="SystemButtonFace")
     label_file_2.config(fg="black")  
-    file_name = selected_file.split('/')[len(selected_file.split('/'))-1]
-    label_file_2['text'] = file_name
+    # file_name = selected_file.split('/')[len(selected_file.split('/'))-1]
+    label_file_2['text'] = selected_file
     return selected_file
 
 # Provera da li je odabran fajl
