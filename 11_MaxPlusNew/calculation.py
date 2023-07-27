@@ -41,12 +41,14 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
         sigma_B_T = sigma_B.transpose() # column vector
 
         if checkbox_text == "forwardSimulation":
-            print("----- Forward Simulation -----")
+            with open('results/fs.txt', 'w') as file:
+                file.write("----- Forward Simulation -----\n")
+
             responses = {}
             # U_1_fs = tau_A \ tau_B
             U_1_fs = utility.right_residual(tau_A, tau_B)
             U_1_fs.name = "U_1_fs"
-            U_1_fs.print_matrix()
+            U_1_fs.print_matrix_in_file("results/fs.txt")
             r = U_1_fs.get_matrix()
             responses[r['name']] = r
 
@@ -70,19 +72,21 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
                 else:
                     U_2_fs.name = name
                     U_1_fs = U_2_fs
-                    U_1_fs.print_matrix()
+                    U_1_fs.print_matrix_in_file("results/fs.txt")
                     r = U_1_fs.get_matrix()
                     responses[r['name']] = r
             result['forwardSimulation'] = responses
                     
 
         if checkbox_text == "backwardSimulation":
-            print("----- Backward Simulation -----")
+            with open('results/bs.txt', 'w') as file:
+                file.write("----- Backward Simulation -----\n")
+          
             responses = {}
             # sigma_A \ sigma_B
             U_1_bs = utility.right_residual(sigma_A, sigma_B)
             U_1_bs.name = "U_1_bs"
-            U_1_bs.print_matrix()
+            U_1_bs.print_matrix_in_file("results/bs.txt")
             r = U_1_bs.get_matrix()
             responses[r['name']] = r
 
@@ -104,18 +108,20 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
                 else:
                     U_2_bs.name = name
                     U_1_bs = U_2_bs
-                    U_1_bs.print_matrix()
+                    U_1_bs.print_matrix_in_file("results/bs.txt")
                     r = U_1_bs.get_matrix()
                     responses[r['name']] = r
             result['backwardSimulation'] = responses
 
         if checkbox_text == "forwardBisimulation":
-            print("----- Forward Bisimulation -----")
+            with open('results/fb.txt', 'w') as file:
+                file.write("----- Forward Bisimulation -----\n")
+            
             responses = {}
             # (tau_A \ tau_B) i (tau_A / tau_B)
             U_1_fb = utility.matrix_min(utility.right_residual(tau_A, tau_B), utility.left_residual(tau_A_T, tau_B_T))
             U_1_fb.name = "U_1_fb"
-            U_1_fb.print_matrix()
+            U_1_fb.print_matrix_in_file("results/fb.txt")
             r = U_1_fb.get_matrix()
             responses[r['name']] = r
 
@@ -143,19 +149,21 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
                 else:
                     U_2_fb.name = name
                     U_1_fb = U_2_fb
-                    U_1_fb.print_matrix()
+                    U_1_fb.print_matrix_in_file("results/fb.txt")
                     r = U_1_fb.get_matrix()
                     responses[r['name']] = r
             result['forwardBisimulation'] = responses
         
 
         if checkbox_text == "backwardBisimulation":
-            print("----- Backward Bisimulation -----")
+            with open('results/bb.txt', 'w') as file:
+                file.write("----- Backward Bisimulation -----\n")
+            
             responses = {}
             # (sigma_A \ sigma_B) i (sigma_A / sigma_B)
             U_1_bb = utility.matrix_min(utility.right_residual(sigma_A, sigma_B), utility.left_residual(sigma_A_T, sigma_B_T))
             U_1_bb.name = "U_1_bb"
-            U_1_bb.print_matrix()
+            U_1_bb.print_matrix_in_file("results/bb.txt")
             r = U_1_bb.get_matrix()
             responses[r['name']] = r
 
@@ -182,18 +190,20 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
                 else:
                     U_2_bb.name = name
                     U_1_bb = U_2_bb
-                    U_1_bb.print_matrix()
+                    U_1_bb.print_matrix_in_file("results/bb.txt")
                     r = U_1_bb.get_matrix()
                     responses[r['name']] = r
             result['backwardBisimulation'] = responses
 
         if checkbox_text == "forwardBackwardBisimulation":
-            print("----- Forward-Backward Bisimulation -----")
+            with open('results/fbb.txt', 'w') as file:
+                file.write("----- Forward-Backward Bisimulation -----\n")
+
             responses = {}
             # (sigma_A / sigma_B) i (tau_A \ tau_B)
             U_1_fbb = utility.matrix_min(utility.left_residual(sigma_A_T, sigma_B_T), utility.right_residual(tau_A, tau_B))
             U_1_fbb.name = "U_1_fbb"
-            U_1_fbb.print_matrix()
+            U_1_fbb.print_matrix_in_file("results/fbb.txt")
             r = U_1_fbb.get_matrix()
             responses[r['name']] = r
 
@@ -222,18 +232,20 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
                 else:
                     U_2_fbb.name = name
                     U_1_fbb = U_2_fbb
-                    U_1_fbb.print_matrix()
+                    U_1_fbb.print_matrix_in_file("results/fbb.txt")
                     r = U_1_fbb.get_matrix()
                     responses[r['name']] = r
             result['forwardBackwardBisimulation'] = responses
 
         if checkbox_text == "backwardForwardBisimulation":
-            print("----- Backward-Forward Bisimulation -----")
+            with open('results/bfb.txt', 'w') as file:
+                file.write("----- Backward-Forward Bisimulation -----\n")
+
             responses = {}
             # (sigma_A \ sigma_B) i (tau_A / tau_B)
             U_1_bfb = utility.matrix_min(utility.right_residual(sigma_A, sigma_B), utility.left_residual(tau_A_T, tau_B_T))
             U_1_bfb.name = "U_1_bfb"
-            U_1_bfb.print_matrix()
+            U_1_bfb.print_matrix_in_file("results/bfb.txt")
             r = U_1_bfb.get_matrix()
             responses[r['name']] = r
 
@@ -258,7 +270,7 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
                 else:
                     U_2_bfb.name = name
                     U_1_bfb = U_2_bfb
-                    U_1_bfb.print_matrix()
+                    U_1_bfb.print_matrix_in_file("results/bfb.txt")
                     r = U_1_bfb.get_matrix()
                     responses[r['name']] = r
             result['backwardForwardBisimulation'] = responses

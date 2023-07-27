@@ -32,13 +32,7 @@ class Matrix:
 
     def print_matrix_in_file(self, filepath):
         with open(filepath, 'a') as file:
-            file.write(format(self.name) + '\n')
+            file.write(self.name + '\n')
             for row in self.value:
                 file.write(','.join(str(element) for element in row) + '\n')
-
-# for i in range(m_cols):
-#     for j in range(n_cols):
-#         column_m = [row[i] for row in matrix_m.value]
-#         column_n = [row[j] for row in matrix_n.value]
-#         for a, b in zip(column_m, column_n):
-#             result[i][j] = min(result[i][j], self.residual(a, b))
+            file.write('-------------------------------' + '\n')

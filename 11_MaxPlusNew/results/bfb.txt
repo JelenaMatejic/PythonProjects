@@ -1,0 +1,9 @@
+----- Backward-Forward Bisimulation -----
+U_1_bfb
+-inf,-inf,-inf
+1.0,3.0,0.0
+-------------------------------
+U_2_bfb
+-inf,-inf,-inf
+-inf,-inf,-inf
+-------------------------------

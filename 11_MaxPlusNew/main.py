@@ -5,6 +5,7 @@ import uvicorn
 from starlette.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import calculation
+from pathlib import Path
 
 app = FastAPI()
 origins = ["*"]
@@ -16,6 +17,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Determine the path to the "results" directory
+results_path = Path(__file__).parent / "results"
+
+# Mount the "results" directory to serve the generated files
+app.mount("/results", StaticFiles(directory=results_path), name="results")
+
 
 @app.get("/", response_class=HTMLResponse)
 def read_root():
