@@ -16,18 +16,21 @@
   <body>
     <div class="container">
         <div class="row align-items-start">
-            <h1 class="text-primary mt-3 mb-3">Max-Plus Simulations & Bisimulations</h1>
 
+            <h1 class="text-primary mt-3 mb-3">Max-Plus Simulations & Bisimulations <i class="bi bi-info-square-fill" id="info"></i></h1>
+            
+            <!-- Alerts -->
+            <div id="infoShow"></div>
             <div class="alert alert-danger d-none" role="alert" id="alert">
                 <span id="alertText"></span>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4 col-sm-12">
                 <form id="max-plus-form">
-                    <!-- File upload buttons -->
-                    <input class="form-control text-primary mb-1" type="file" id="formFile1">
+                    <!-- File upload buttons and input number of steps -->
+                    <input class="form-control text-primary mb-1" type="file" id="formFile1">    
                     <input class="form-control text-primary mb-1" type="file" id="formFile2">
-
+                    
                     <div id="formCheckboxes">
                         <!-- Show checkbox options -->
                     </div>
@@ -38,14 +41,14 @@
                 </form>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6">
                 <h5 class="text-primary" id="automatonATitle"></h5>
                 <div class="overflow-auto" id="automatonA">
                     <!-- Automaton A Input parameters -->
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4 col-sm-6">
                 <h5 class="text-primary" id="automatonBTitle"></h5>
                 <div class="overflow-auto" id="automatonB">
                     <!-- Automaton B Input parameters -->
@@ -86,6 +89,8 @@
         spanAlertText = document.getElementById('alertText');
         spanAutomatonATitle = document.getElementById('automatonATitle');
         spanAutomatonBTitle = document.getElementById('automatonBTitle');
+        info = document.getElementById('info');
+        infoShow = document.getElementById('infoShow');
 
         window.addEventListener("load", () => {
             showCheckBoxes();
@@ -108,8 +113,8 @@
             let elements = ``;
             for(type in types) {
                 elements += 
-                `<div class="col-4 mb-3" id="${type}Box">
-                    <div class="border rounded mr-1 p-2">
+                `<div class="col-12 col-md-6 col-lg-4 mb-3" id="${type}Box">
+                    <div class="mr-1 p-2">
                         <h5 class="text-primary">${types[type]}</h5>
                         <div class="overflow-auto" id="${type}Result">
                             <!-- Place for results -->
@@ -130,6 +135,37 @@
                 return element;
             }
         }
+
+        info.addEventListener("mouseover", () => {
+            infoShow.innerHTML = `
+            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                Please choose <b>.txt</b> files written in the following format:
+
+                <div class="fw-bold mt-2 mb-2">
+                    states<br>
+                    2<br>
+                    start<br>
+                    1,-<br>
+                    end<br>
+                    -,0<br>
+                    transition x<br>
+                    4,1<br>
+                    -,2<br>
+                    transition y<br>
+                    -,+<br>
+                    -,1
+                </div>
+                For easier notation, we use <b>-</b> to represent -∞, and <b>+</b> to represent +∞.<br>
+                <b>states</b> represents an integer, indicating the number of states in the automaton.<br>
+                <b>start</b> represents the initial vector &#963;, with its coordinates separated by commas.<br>
+                <b>end</b> represents the final vector &#964;, with its coordinates also separated by commas.<br>
+                <b>transition ?</b> represents the transition matrices &#948;, where ? is a letter from the input alphabet.<br>
+                There should be as many matrices as there are letters in the input alphabet.<br>
+                We separate row vectors with new lines, and the coordinates within them are separated by commas.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            `;
+        });
 
         function writeMatrix(matrix, elementID, name, subscriptName, superscriptName, subscriptMatrix, superscriptMatrix) {
             let elementHTML = document.getElementById(elementID);
@@ -153,12 +189,13 @@
         }
 
         function writeAutomatas(dataArray) {
+            document.getElementById("automatonA").innerHTML = "";
+            document.getElementById("automatonB").innerHTML = "";
             dataArray.forEach(obj => {
                 if("automatonA" in obj) {
                     automatonA = obj["automatonA"];
                     for(key in automatonA) {
                         if(key == "start") {
-                            document.getElementById("automatonA").innerHTML = "";
                             writeMatrix(automatonA["start"].value, "automatonA", "&#963;", "", "A", "", "");
                         } else if(key == "end") {
                             writeMatrix(automatonA["end"].value, "automatonA", "&#964;", "", "A", "", "T");
@@ -171,7 +208,6 @@
                     automatonB = obj["automatonB"];
                     for(key in automatonB) {
                         if(key == "start") {
-                            document.getElementById("automatonB").innerHTML = "";
                             writeMatrix(automatonB["start"].value, "automatonB", "&#963;", "", "B", "", "");
                         } else if(key == "end") {
                             writeMatrix(automatonB["end"].value, "automatonB", "&#964;", "", "B", "", "T");
@@ -252,42 +288,77 @@
                 writeCalculatedResults(dataArray)
             })
             .catch(error => {
+                // Handle the error and display it in the divAlert element
+                spanAlertText.innerHTML = "Check format of input data";
+                divAlert.classList.remove("d-none");
                 console.error('Error fetching data:', error);
             });
         }
 
         let btnDownloadResults = document.getElementById("downloadResults");
         btnDownloadResults.addEventListener("click", () => {
-            const files = [
-                { name: "fs.txt", path: "/results/fs.txt" },
-                { name: "fb.txt", path: "/results/fb.txt" },
-                { name: "bs.txt", path: "/results/bs.txt" },
-                { name: "bb.txt", path: "/results/bb.txt" },
-                { name: "fbb.txt", path: "/results/fbb.txt" },
-                { name: "bfb.txt", path: "/results/bfb.txt" }
-            ];
-
-            // Helper function to download each file
-            function downloadFile(file) {
-                fetch(file.path)
-                    .then(response => response.text())
-                    .then(content => {
-                        const blob = new Blob([content], { type: "text/plain" });
-                        const downloadLink = document.createElement("a");
-                        downloadLink.href = URL.createObjectURL(blob);
-                        downloadLink.download = file.name;
-                        downloadLink.click();
-                    })
-                    .catch(error => {
-                        console.error(`Error fetching ${file.name}:`, error);
-                    });
-            }
-
-            // Loop through the files and initiate the download for each one
-            files.forEach(file => {
-                downloadFile(file);
-            });
+            // Make a request to the backend to download the zip file
+            fetch('/download_zip')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.blob();
+                })
+                .then(blob => {
+                    // Create a URL for the blob
+                    const url = URL.createObjectURL(blob);
+                    
+                    // Create a link element
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = 'results.zip';
+                    
+                    // Append the link to the DOM and click it to trigger the download
+                    document.body.appendChild(link);
+                    link.click();
+                    
+                    // Remove the link from the DOM
+                    document.body.removeChild(link);
+                })
+                .catch(error => {
+                    console.error('Error downloading zip file:', error);
+                });
         });
+
+        // Download files separetly
+        // let btnDownloadResults = document.getElementById("downloadResults");
+        // btnDownloadResults.addEventListener("click", () => {
+        //     const files = [
+        //         { name: "fs.txt", path: "/results/fs.txt" },
+        //         { name: "fb.txt", path: "/results/fb.txt" },
+        //         { name: "bs.txt", path: "/results/bs.txt" },
+        //         { name: "bb.txt", path: "/results/bb.txt" },
+        //         { name: "fbb.txt", path: "/results/fbb.txt" },
+        //         { name: "bfb.txt", path: "/results/bfb.txt" }
+        //     ];
+
+        //     // Helper function to download each file
+        //     function downloadFile(file) {
+        //         fetch(file.path)
+        //             .then(response => response.text())
+        //             .then(content => {
+        //                 const blob = new Blob([content], { type: "text/plain" });
+        //                 const downloadLink = document.createElement("a");
+        //                 downloadLink.href = URL.createObjectURL(blob);
+        //                 downloadLink.download = file.name;
+        //                 downloadLink.click();
+        //             })
+        //             .catch(error => {
+        //                 console.error(`Error fetching ${file.name}:`, error);
+        //             });
+        //     }
+
+        //     // Loop through the files and initiate the download for each one
+        //     files.forEach(file => {
+        //         downloadFile(file);
+        //     });
+        // });
     </script>
 </body>
 </html>

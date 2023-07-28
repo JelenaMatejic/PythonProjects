@@ -4,46 +4,41 @@ import utility
 from matrix import Matrix
 from cmath import inf
 
+def getResponseAutomaton(automaton):
+    responses = {}
+    r = automaton.sigma.get_matrix()
+    responses[r['name']] = r
+    r = automaton.tau.get_matrix()
+    responses[r['name']] = r
+    for i in range(len(automaton.transitions)):
+        r = automaton.transitions[i].get_matrix()
+        responses[r['name']] = r
+    return responses
+
 def compute(file1: UploadFile, file2: UploadFile, selected_options):
     result = {}
+
     automaton1 = Automaton(file1)
     automaton2 = Automaton(file2)
 
-    responses = {}
-    r = automaton1.sigma.get_matrix()
-    responses[r['name']] = r
-    r = automaton1.tau.get_matrix()
-    responses[r['name']] = r
-    for i in range(len(automaton1.transitions)):
-        r = automaton1.transitions[i].get_matrix()
-        responses[r['name']] = r
-    result['automatonB'] = responses
+    result['automatonA'] = getResponseAutomaton(automaton1)
+    result['automatonB'] = getResponseAutomaton(automaton2)
 
-    responses = {}
-    r = automaton2.sigma.get_matrix()
-    responses[r['name']] = r
-    r = automaton2.tau.get_matrix()
-    responses[r['name']] = r
-    for i in range(len(automaton2.transitions)):
-        r = automaton2.transitions[i].get_matrix()
-        responses[r['name']] = r
-    result['automatonA'] = responses
+    # Insert titles in files (arr = key: file_name, value: text)
+    arr = [('fs.txt','Forward Simulation'),('bs.txt','Backward Simulation'),('fb.txt','Forward Bisimulation'),('bb.txt','Backward Bisimulation'),('fbb.txt','Forward-Backward Bisimulation'),('bfb.txt','Backward-Forward Bisimulation')]
+    for key,value in arr: 
+        path = 'results/' + key
+        with open(path, 'w') as file:
+            file.write("----- " + value + " -----\n")
 
     # Perform different actions based on selected checkboxes
     for checkbox_text in selected_options:
-        tau_A = automaton1.tau # row vector
-        tau_B = automaton2.tau # row vector
-        tau_A_T = tau_A.transpose() # column vector
-        tau_B_T = tau_B.transpose() # column vector
-        sigma_A = automaton1.sigma # row vector
-        sigma_B = automaton2.sigma # row vector
-        sigma_A_T = sigma_A.transpose() # column vector
-        sigma_B_T = sigma_B.transpose() # column vector
+        sigma_A, tau_A = automaton1.sigma, automaton1.tau # row vectors
+        sigma_B, tau_B = automaton2.sigma, automaton2.tau # row vectors
+        sigma_A_T, tau_A_T = sigma_A.transpose(), tau_A.transpose() # column vectors
+        sigma_B_T, tau_B_T = sigma_B.transpose(), tau_B.transpose() # column vectors
 
         if checkbox_text == "forwardSimulation":
-            with open('results/fs.txt', 'w') as file:
-                file.write("----- Forward Simulation -----\n")
-
             responses = {}
             # U_1_fs = tau_A \ tau_B
             U_1_fs = utility.right_residual(tau_A, tau_B)
@@ -79,9 +74,6 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
                     
 
         if checkbox_text == "backwardSimulation":
-            with open('results/bs.txt', 'w') as file:
-                file.write("----- Backward Simulation -----\n")
-          
             responses = {}
             # sigma_A \ sigma_B
             U_1_bs = utility.right_residual(sigma_A, sigma_B)
@@ -114,9 +106,6 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
             result['backwardSimulation'] = responses
 
         if checkbox_text == "forwardBisimulation":
-            with open('results/fb.txt', 'w') as file:
-                file.write("----- Forward Bisimulation -----\n")
-            
             responses = {}
             # (tau_A \ tau_B) i (tau_A / tau_B)
             U_1_fb = utility.matrix_min(utility.right_residual(tau_A, tau_B), utility.left_residual(tau_A_T, tau_B_T))
@@ -156,9 +145,6 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
         
 
         if checkbox_text == "backwardBisimulation":
-            with open('results/bb.txt', 'w') as file:
-                file.write("----- Backward Bisimulation -----\n")
-            
             responses = {}
             # (sigma_A \ sigma_B) i (sigma_A / sigma_B)
             U_1_bb = utility.matrix_min(utility.right_residual(sigma_A, sigma_B), utility.left_residual(sigma_A_T, sigma_B_T))
@@ -196,9 +182,6 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
             result['backwardBisimulation'] = responses
 
         if checkbox_text == "forwardBackwardBisimulation":
-            with open('results/fbb.txt', 'w') as file:
-                file.write("----- Forward-Backward Bisimulation -----\n")
-
             responses = {}
             # (sigma_A / sigma_B) i (tau_A \ tau_B)
             U_1_fbb = utility.matrix_min(utility.left_residual(sigma_A_T, sigma_B_T), utility.right_residual(tau_A, tau_B))
@@ -238,9 +221,6 @@ def compute(file1: UploadFile, file2: UploadFile, selected_options):
             result['forwardBackwardBisimulation'] = responses
 
         if checkbox_text == "backwardForwardBisimulation":
-            with open('results/bfb.txt', 'w') as file:
-                file.write("----- Backward-Forward Bisimulation -----\n")
-
             responses = {}
             # (sigma_A \ sigma_B) i (tau_A / tau_B)
             U_1_bfb = utility.matrix_min(utility.right_residual(sigma_A, sigma_B), utility.left_residual(tau_A_T, tau_B_T))

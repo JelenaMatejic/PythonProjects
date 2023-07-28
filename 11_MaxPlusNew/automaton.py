@@ -1,6 +1,9 @@
 from matrix import Matrix
 import utility
 
+class InvalidFileFormatError(Exception):
+    pass
+
 class Automaton:
     def __init__(self, filepath):
         self.n = None
@@ -21,7 +24,7 @@ class Automaton:
             # Check if the file format is valid
             if len(lines) < 7 or lines[0] != 'states' or lines[2] != 'start' or lines[4] != 'end':
                 print('Invalid file format')
-                return
+                raise InvalidFileFormatError("Invalid file format")
 
             # Read the number of states
             self.n = int(lines[1])

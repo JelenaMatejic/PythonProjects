@@ -1,11 +1,14 @@
-from fastapi import Request, FastAPI, File, UploadFile, Form, HTTPException
+from fastapi import Request, FastAPI, File, UploadFile, Form, HTTPException, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse, JSONResponse
 import uvicorn
 from starlette.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import calculation
+import shutil
+import os
 from pathlib import Path
+import tempfile
 
 app = FastAPI()
 origins = ["*"]
@@ -43,11 +46,11 @@ async def maxPlus(
 ):
 
     f1_content = file1.file.read()
-    with open(file1.filename, "wb") as f:
+    with open("results/automatonA.txt", "wb") as f:
         f.write(f1_content)
 
     f2_content = file2.file.read()
-    with open(file2.filename, "wb") as f:
+    with open("results/automatonB.txt", "wb") as f:
         f.write(f2_content)
 
     selected_options = []
@@ -64,10 +67,31 @@ async def maxPlus(
     if backwardForwardBisimulation:
         selected_options.append("backwardForwardBisimulation")
     
-    res = calculation.compute(file1.filename, file2.filename, selected_options)
+    res = calculation.compute("results/automatonA.txt", "results/automatonB.txt", selected_options)
 
     # Return the response as a JSON object
     return JSONResponse(content=res)
+
+@app.get("/download_zip")
+async def download_zip():
+    # Create a temporary directory to hold the zip file
+    with tempfile.TemporaryDirectory() as temp_dir:
+        # Create a temporary zip file
+        temp_zip_file = os.path.join(temp_dir, "temp_results.zip")
+        shutil.make_archive(os.path.splitext(temp_zip_file)[0], "zip", "results")
+
+        # Open the temporary zip file in binary read mode
+        with open(temp_zip_file, "rb") as file:
+            # Read the binary content of the zip file
+            zip_content = file.read()
+
+        # Create a response with the zip content
+        response = Response(content=zip_content, media_type="application/zip")
+
+        # Set the response headers to trigger the download
+        response.headers["Content-Disposition"] = 'attachment; filename="results.zip"'
+
+        return response
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
