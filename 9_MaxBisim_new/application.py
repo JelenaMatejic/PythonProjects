@@ -51,10 +51,10 @@ class Application:
         self.threshold_entry = tk.Entry(self.root)
         self.threshold_entry.grid(row=4, column=1, padx=10, pady=5)
 
+        # Computation button
         self.button_compute = tk.Button(self.root, text="Compute", command=self.compute)
         self.button_compute.grid(row=5, column=0, columnspan=2, padx=10, pady=5)
 
-    # Odabir input fajla
     def browse_file_1(self):
         self.selected_file_1 = filedialog.askopenfilename()
         if self.selected_file_1:
@@ -139,11 +139,11 @@ class Application:
                 x = tau1.value[0][i]
                 y = tau2.value[0][j]
                 if x == y: 
-                    coord = 1   # Ako su vrednosti iste, onda je coord = 1
+                    coord = 1 
                 else:
-                    coord = min(x, y) / max(x, y) # Računamo coord
-                tmp_bisim[i][j] = coord # Upisujemo kao coord trenutne simulacije
+                    coord = min(x, y) / max(x, y)
+                tmp_bisim[i][j] = coord 
         name = tau1.name + ' <-> ' + tau2.name
-        tmp_bisim_matrix = Matrix(name, tmp_bisim) # Kreiramo matricu tekuće simulacije
+        tmp_bisim_matrix = Matrix(name, tmp_bisim)
         return tmp_bisim_matrix
 
